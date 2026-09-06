@@ -4,7 +4,7 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.38'
 }
 group = 'dev.cuboidplots'
-version = '0.1.0'
+version = '0.1.1'
 base { archivesName = 'cuboidplots-1.18.2-forge' }
 java { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
 minecraft { mappings channel: 'official', version: '1.18.2' }
@@ -25,7 +25,8 @@ dependencies {
     implementation fg.deobf('dev.architectury:architectury-forge:4.12.94') { transitive = false }
     implementation fg.deobf('maven.modrinth:open-parties-and-claims:forge-1.18.2-0.30.3') { transitive = false }
     implementation 'io.github.llamalad7:mixinextras-common:0.4.1'
-    jarJar(group: 'io.github.llamalad7', name: 'mixinextras-forge', version: '[0.4.1,0.5)') { jarJar.pin(it, '0.4.1') }
+    // Let JarJar select a newer shared runtime when another mod requires MixinExtras 0.5.x.
+    jarJar(group: 'io.github.llamalad7', name: 'mixinextras-forge', version: '[0.4.1,)') { jarJar.pin(it, '0.4.1') }
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     annotationProcessor 'io.github.llamalad7:mixinextras-common:0.4.1'
 }
