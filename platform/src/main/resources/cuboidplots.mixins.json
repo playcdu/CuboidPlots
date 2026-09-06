@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.cuboidplots.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "dev.cuboidplots.mixin.OptionalIntegrationPlugin",
+  "mixins": ["PlayerGameModeMixin", "PlayerEntityMixin", "ArmorStandInteractionMixin", "PlayerSaveAccess", "integration.FtbProtectionMixin", "integration.OpacProtectionMixin", "integration.OpacOwnershipMixin"],
+  "injectors": {"defaultRequire": 1}
+}

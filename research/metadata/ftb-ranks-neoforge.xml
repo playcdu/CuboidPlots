@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>dev.ftb.mods</groupId>
+  <artifactId>ftb-ranks-neoforge</artifactId>
+  <versioning>
+    <latest>26.1.2.3</latest>
+    <release>26.1.2.3</release>
+    <versions>
+      <version>2004.2.0</version>
+      <version>2006.1.0</version>
+      <version>2100.1.0</version>
+      <version>2101.1.1</version>
+      <version>2101.1.2</version>
+      <version>2101.1.3</version>
+      <version>2111.1.0</version>
+      <version>26.1.2.1</version>
+      <version>26.1.2.2</version>
+      <version>2101.1.4</version>
+      <version>26.1.2.3</version>
+    </versions>
+    <lastUpdated>20260728104041</lastUpdated>
+  </versioning>
+</metadata>

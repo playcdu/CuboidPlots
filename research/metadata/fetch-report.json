@@ -1,0 +1,85 @@
+{
+  "utc": "2026-09-06T16:19:27.920818+00:00",
+  "results": [
+    {
+      "name": "opac-versions",
+      "url": "https://api.modrinth.com/v2/project/open-parties-and-claims/version",
+      "bytes": 2143909
+    },
+    {
+      "name": "ftb-branches",
+      "url": "https://api.github.com/repos/FTBTeam/FTB-Chunks/branches?per_page=100",
+      "bytes": 8478
+    },
+    {
+      "name": "opac-branches",
+      "url": "https://api.github.com/repos/thexaero/open-parties-and-claims/branches?per_page=100",
+      "bytes": 4308
+    },
+    {
+      "name": "ranks-branches",
+      "url": "https://api.github.com/repos/FTBTeam/FTB-Ranks/branches?per_page=100",
+      "bytes": 4680
+    },
+    {
+      "name": "ftb-chunks-fabric",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/maven-metadata.xml",
+      "bytes": 13336
+    },
+    {
+      "name": "ftb-chunks-forge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/maven-metadata.xml",
+      "bytes": 12053
+    },
+    {
+      "name": "ftb-chunks-neoforge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/maven-metadata.xml",
+      "bytes": 1620
+    },
+    {
+      "name": "ftb-ranks-fabric",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/maven-metadata.xml",
+      "bytes": 4236
+    },
+    {
+      "name": "ftb-ranks-forge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/maven-metadata.xml",
+      "bytes": 3895
+    },
+    {
+      "name": "ftb-ranks-neoforge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/maven-metadata.xml",
+      "bytes": 686
+    },
+    {
+      "name": "ftb-teams-fabric",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/maven-metadata.xml",
+      "bytes": 5783
+    },
+    {
+      "name": "ftb-teams-forge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/maven-metadata.xml",
+      "bytes": 5098
+    },
+    {
+      "name": "ftb-teams-neoforge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/maven-metadata.xml",
+      "bytes": 1030
+    },
+    {
+      "name": "ftb-library-fabric",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/maven-metadata.xml",
+      "bytes": 11477
+    },
+    {
+      "name": "ftb-library-forge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/maven-metadata.xml",
+      "bytes": 9681
+    },
+    {
+      "name": "ftb-library-neoforge",
+      "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/maven-metadata.xml",
+      "bytes": 2380
+    }
+  ]
+}

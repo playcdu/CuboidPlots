@@ -1,0 +1,618 @@
+[
+  {
+    "mc": "1.16.5",
+    "loader": "fabric",
+    "mod": "ftb-chunks",
+    "version": "1605.3.4-build.220",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1605.3.4-build.220/ftb-chunks-fabric-1605.3.4-build.220.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1605.3.4-build.220/ftb-chunks-fabric-1605.3.4-build.220.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1605.3.4-build.220/ftb-chunks-fabric-1605.3.4-build.220-sources.jar",
+    "pom_sha256": "bc3b83bb032c3f2205d6099816a43cf0ef2c421fa6341860b67f82b027bb971c",
+    "sources_sha256": "2e0861cda0fc3bfb0359641905e8d726f0de2db3df851429ed71b520a40163aa"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "fabric",
+    "mod": "ftb-teams",
+    "version": "1605.3.0-build.157",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1605.3.0-build.157/ftb-teams-fabric-1605.3.0-build.157.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1605.3.0-build.157/ftb-teams-fabric-1605.3.0-build.157.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1605.3.0-build.157/ftb-teams-fabric-1605.3.0-build.157-sources.jar",
+    "pom_sha256": "31b2901598a2ef8e2f971b28f25157f8d1e59f7b9675e37d99c83781cf845725",
+    "fetch_error": "HTTP Error 404: Not Found"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "fabric",
+    "mod": "ftb-library",
+    "version": "1605.3.5-build.724",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1605.3.5-build.724/ftb-library-fabric-1605.3.5-build.724.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1605.3.5-build.724/ftb-library-fabric-1605.3.5-build.724.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1605.3.5-build.724/ftb-library-fabric-1605.3.5-build.724-sources.jar",
+    "pom_sha256": "c49573e4d4087ceefd5920eb6f47f0dc043f7115e439c72553ecf0ec4b9b5c62",
+    "sources_sha256": "d24bbf75b5a02acb26311ab48c7f28ce5483b8a300dd32bac289883a6e463947"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "fabric",
+    "mod": "ftb-ranks",
+    "version": "1605.1.6-build.37",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1605.1.6-build.37/ftb-ranks-fabric-1605.1.6-build.37.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1605.1.6-build.37/ftb-ranks-fabric-1605.1.6-build.37.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1605.1.6-build.37/ftb-ranks-fabric-1605.1.6-build.37-sources.jar",
+    "pom_sha256": "a05fdf9c5b1a508fe43a783a5d0a8f533ecf97e5fa03ec6c2b5c79aaf7fc8555",
+    "sources_sha256": "c9700a57555595fdc56b6e6acd21dbba73e930337f4135bcee02475ce6b7358e"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "forge",
+    "mod": "ftb-chunks",
+    "version": "1605.3.4-build.220",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1605.3.4-build.220/ftb-chunks-forge-1605.3.4-build.220.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1605.3.4-build.220/ftb-chunks-forge-1605.3.4-build.220.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1605.3.4-build.220/ftb-chunks-forge-1605.3.4-build.220-sources.jar",
+    "pom_sha256": "758062852ce9fcd9fe6fba44cd174b53f35938e7395d7a3353aeea8e683eab09",
+    "sources_sha256": "10275368f5a6a1cdaba285b8e254de0c1d4cf5b7ff2369bf7f10a63be129b224"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "forge",
+    "mod": "ftb-teams",
+    "version": "1605.3.0-build.157",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1605.3.0-build.157/ftb-teams-forge-1605.3.0-build.157.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1605.3.0-build.157/ftb-teams-forge-1605.3.0-build.157.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1605.3.0-build.157/ftb-teams-forge-1605.3.0-build.157-sources.jar",
+    "pom_sha256": "a83648311ea047a64c62dcb5ffaf6eacc7ecd01cb0cb3aa2d31c4a0b204b66fd",
+    "fetch_error": "HTTP Error 404: Not Found"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "forge",
+    "mod": "ftb-library",
+    "version": "1605.3.5-build.724",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1605.3.5-build.724/ftb-library-forge-1605.3.5-build.724.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1605.3.5-build.724/ftb-library-forge-1605.3.5-build.724.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1605.3.5-build.724/ftb-library-forge-1605.3.5-build.724-sources.jar",
+    "pom_sha256": "69e96d32181b9ed40d08a488082b00feba21cf6008c03ddb2fc0334672dc418d",
+    "sources_sha256": "60a9a8dd0679a0511adddd3d5cb2d96f08cb59dbdfc0d5a361e55160d0eddcd4"
+  },
+  {
+    "mc": "1.16.5",
+    "loader": "forge",
+    "mod": "ftb-ranks",
+    "version": "1605.1.6-build.37",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1605.1.6-build.37/ftb-ranks-forge-1605.1.6-build.37.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1605.1.6-build.37/ftb-ranks-forge-1605.1.6-build.37.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1605.1.6-build.37/ftb-ranks-forge-1605.1.6-build.37-sources.jar",
+    "pom_sha256": "138ab7c3e6935a626e40d28d2c286825fdc377c02ffde735dff47f3956cb67fe",
+    "fetch_error": "HTTP Error 404: Not Found"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "fabric",
+    "mod": "ftb-chunks",
+    "version": "1802.3.19-build.362",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1802.3.19-build.362/ftb-chunks-fabric-1802.3.19-build.362.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1802.3.19-build.362/ftb-chunks-fabric-1802.3.19-build.362.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1802.3.19-build.362/ftb-chunks-fabric-1802.3.19-build.362-sources.jar",
+    "pom_sha256": "276d369ab21a48be185bff232982534171a45ee9529835128eb10cf2c3b47b11",
+    "sources_sha256": "9c0ce4b79ffc3c3cb754d966d00af6e80df29f603435a69a1fc3f7e32e57568a"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "fabric",
+    "mod": "ftb-teams",
+    "version": "1802.2.11-build.152",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1802.2.11-build.152/ftb-teams-fabric-1802.2.11-build.152.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1802.2.11-build.152/ftb-teams-fabric-1802.2.11-build.152.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1802.2.11-build.152/ftb-teams-fabric-1802.2.11-build.152-sources.jar",
+    "pom_sha256": "6f9fbd7463eed536de3a1d37310469d571699875d3bc851c9453865ff07816a1",
+    "sources_sha256": "8fd448c2e8a248b182c3b514fda2453a6c3cc067f6462e37e794600e7cf365c1"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "fabric",
+    "mod": "ftb-library",
+    "version": "1802.3.12-build.726",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1802.3.12-build.726/ftb-library-fabric-1802.3.12-build.726.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1802.3.12-build.726/ftb-library-fabric-1802.3.12-build.726.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1802.3.12-build.726/ftb-library-fabric-1802.3.12-build.726-sources.jar",
+    "pom_sha256": "0e4d2cd354d239ad6cb572f047ba339b0d4b718a1878868907a0379e3a84967e",
+    "sources_sha256": "792a9c50a46c6ff0d043fead7064a4f972c8d937fc4258d4c40f750d07761088"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "fabric",
+    "mod": "ftb-ranks",
+    "version": "1802.1.11-build.71",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1802.1.11-build.71/ftb-ranks-fabric-1802.1.11-build.71.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1802.1.11-build.71/ftb-ranks-fabric-1802.1.11-build.71.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1802.1.11-build.71/ftb-ranks-fabric-1802.1.11-build.71-sources.jar",
+    "pom_sha256": "29b246b3c6224ca797e270980f92245223b03c544956fc093af2e95f3fb29996",
+    "sources_sha256": "0425ccf02b2af960bf2e56a1caf0eaf32dfd5553e35a32d39ad0c1d0579199d0"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "fabric",
+    "mod": "opac",
+    "version": "fabric-1.18.2-0.30.3",
+    "version_id": "sKct319e",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/sKct319e/open-parties-and-claims-fabric-1.18.2-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/sKct319e/open-parties-and-claims-fabric-1.18.2-0.30.3-sources.jar",
+    "sources_sha256": "a4ece7b22847803ddf103e4feca511924eadea40325743456b6d718770810ea3"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "forge",
+    "mod": "ftb-chunks",
+    "version": "1802.3.19-build.362",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1802.3.19-build.362/ftb-chunks-forge-1802.3.19-build.362.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1802.3.19-build.362/ftb-chunks-forge-1802.3.19-build.362.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1802.3.19-build.362/ftb-chunks-forge-1802.3.19-build.362-sources.jar",
+    "pom_sha256": "358f60d73837c1115e890e2b4297b4ea1e67ed6092680252d9e3e8cb21dd2adf",
+    "sources_sha256": "481e13bf87be2fbff8ef1ad9da54581b39742a22a1cc83290338c61c4a0b15e8"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "forge",
+    "mod": "ftb-teams",
+    "version": "1802.2.11-build.152",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1802.2.11-build.152/ftb-teams-forge-1802.2.11-build.152.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1802.2.11-build.152/ftb-teams-forge-1802.2.11-build.152.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1802.2.11-build.152/ftb-teams-forge-1802.2.11-build.152-sources.jar",
+    "pom_sha256": "3c1caa1632793110d76b4d05d9f199995da74ee333d8e49ca24472e00bac6c23",
+    "sources_sha256": "2d5fedea196c7260166262db84d42875995872bf7284c2dbd70482b436c3ba39"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "forge",
+    "mod": "ftb-library",
+    "version": "1802.3.12-build.726",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1802.3.12-build.726/ftb-library-forge-1802.3.12-build.726.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1802.3.12-build.726/ftb-library-forge-1802.3.12-build.726.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1802.3.12-build.726/ftb-library-forge-1802.3.12-build.726-sources.jar",
+    "pom_sha256": "2955d6dcbf452045cbbe044c1a8cd82f333cf7d0b9041111657ca11d429f78f4",
+    "sources_sha256": "977a2f9650022d89e5171644a12630d54cbe0c6bbb6136cc9937890f5efd261e"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "forge",
+    "mod": "ftb-ranks",
+    "version": "1802.1.11-build.71",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1802.1.11-build.71/ftb-ranks-forge-1802.1.11-build.71.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1802.1.11-build.71/ftb-ranks-forge-1802.1.11-build.71.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1802.1.11-build.71/ftb-ranks-forge-1802.1.11-build.71-sources.jar",
+    "pom_sha256": "e96df2d3e7c2d6799a341dc1b5a53b998358f057c5d9030c0e3461c744568be3",
+    "sources_sha256": "20d155242bea84e202ff0f151d623805b576fcee2ff26d3c389efd48d8407d9b"
+  },
+  {
+    "mc": "1.18.2",
+    "loader": "forge",
+    "mod": "opac",
+    "version": "forge-1.18.2-0.30.3",
+    "version_id": "qr9WlJgq",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/qr9WlJgq/open-parties-and-claims-forge-1.18.2-0.30.3.jar",
+    "dependencies": [],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/qr9WlJgq/open-parties-and-claims-forge-1.18.2-0.30.3-sources.jar",
+    "sources_sha256": "1caf36fa0988235945d7c9ce4920eb3ea47c7944949a9393354038138a5908fa"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "fabric",
+    "mod": "ftb-chunks",
+    "version": "2001.3.8",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2001.3.8/ftb-chunks-fabric-2001.3.8.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2001.3.8/ftb-chunks-fabric-2001.3.8.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2001.3.8/ftb-chunks-fabric-2001.3.8-sources.jar",
+    "pom_sha256": "922e5459082c176279d0bbc102165adc0752218bb2e540aabb7ba9f1c0871636",
+    "sources_sha256": "b1bee6836037d2c87f764bbe8c0b96653bd67d6624e6f6a1336aba376c7658fe"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "fabric",
+    "mod": "ftb-teams",
+    "version": "2001.3.2",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2001.3.2/ftb-teams-fabric-2001.3.2.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2001.3.2/ftb-teams-fabric-2001.3.2.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2001.3.2/ftb-teams-fabric-2001.3.2-sources.jar",
+    "pom_sha256": "648c0f28017e18f5086b46984f16d8ccb1cec83fef7bb5bd41410a4fa2d34d47",
+    "sources_sha256": "461be2a19b1e7141d3bbb33027074e288585ed4cba08a144136e5cf5313b8c83"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "fabric",
+    "mod": "ftb-library",
+    "version": "2001.2.13",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2001.2.13/ftb-library-fabric-2001.2.13.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2001.2.13/ftb-library-fabric-2001.2.13.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2001.2.13/ftb-library-fabric-2001.2.13-sources.jar",
+    "pom_sha256": "f56a2236e1b72cbbc203150a2edfb1fc46e54501b344d81055c18867946e8338",
+    "sources_sha256": "cd7e546d3e945857d754c2ec493efc5d3febf28160370b44f016eb09b44a8895"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "fabric",
+    "mod": "ftb-ranks",
+    "version": "2001.1.7",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2001.1.7/ftb-ranks-fabric-2001.1.7.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2001.1.7/ftb-ranks-fabric-2001.1.7.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2001.1.7/ftb-ranks-fabric-2001.1.7-sources.jar",
+    "pom_sha256": "2d63dea522eb818b68f64b3517f0b0e30479687c155b46a1f0e96e9ada136251",
+    "sources_sha256": "3dc07ad8330863ac053a970a1e7bf8b83ffb9c648557f8cdc9613d19b0d8e121"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "fabric",
+    "mod": "opac",
+    "version": "fabric-1.20.1-0.30.3",
+    "version_id": "WNhb6Zgb",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/WNhb6Zgb/open-parties-and-claims-fabric-1.20.1-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/WNhb6Zgb/open-parties-and-claims-fabric-1.20.1-0.30.3-sources.jar",
+    "sources_sha256": "7976d0aacef6caee315f4ba7765f201f61ae02c907c6a982f3e1093831fa641f"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "forge",
+    "mod": "ftb-chunks",
+    "version": "2001.3.8",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/2001.3.8/ftb-chunks-forge-2001.3.8.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/2001.3.8/ftb-chunks-forge-2001.3.8.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/2001.3.8/ftb-chunks-forge-2001.3.8-sources.jar",
+    "pom_sha256": "ae89fb0ad1a677e0383e57a037155b279a9671c7557bbed070b2396311f862b4",
+    "sources_sha256": "92a8b4528a18d8ee6949aea15d09b6ba0dca1219d8424e17b7ae9dd341f43733"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "forge",
+    "mod": "ftb-teams",
+    "version": "2001.3.2",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/2001.3.2/ftb-teams-forge-2001.3.2.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/2001.3.2/ftb-teams-forge-2001.3.2.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/2001.3.2/ftb-teams-forge-2001.3.2-sources.jar",
+    "pom_sha256": "754828db77f6ecf0e5aa04cb0b06a1e9a37af3256bc85615d9f0db15919e5fd3",
+    "sources_sha256": "02f4b27464a1e412a2884caf62966e37fdc4cc68ffd1d0cdf9114bbb770dbb74"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "forge",
+    "mod": "ftb-library",
+    "version": "2001.2.13",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/2001.2.13/ftb-library-forge-2001.2.13.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/2001.2.13/ftb-library-forge-2001.2.13.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/2001.2.13/ftb-library-forge-2001.2.13-sources.jar",
+    "pom_sha256": "eeb077232edc2280cd3e62cdab9d01306d6a805cc787608d9f1d302c606b3784",
+    "sources_sha256": "6e87d371bcb3607c9038f72ab93698ed1bd8d168cfb3b75929747375c52acc7e"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "forge",
+    "mod": "ftb-ranks",
+    "version": "2001.1.7",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/2001.1.7/ftb-ranks-forge-2001.1.7.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/2001.1.7/ftb-ranks-forge-2001.1.7.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/2001.1.7/ftb-ranks-forge-2001.1.7-sources.jar",
+    "pom_sha256": "8db470051080491e86a9f187d3802b23a35820d8ea4a9bf6c2f5ece02d2d0e2a",
+    "sources_sha256": "3095caa05ad2388545e459966321011a91e928d03db75d488572bf7aad995acc"
+  },
+  {
+    "mc": "1.20.1",
+    "loader": "forge",
+    "mod": "opac",
+    "version": "forge-1.20.1-0.30.3",
+    "version_id": "KlMaZyyE",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/KlMaZyyE/open-parties-and-claims-forge-1.20.1-0.30.3.jar",
+    "dependencies": [],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/KlMaZyyE/open-parties-and-claims-forge-1.20.1-0.30.3-sources.jar",
+    "sources_sha256": "c4eb422ac8f051e09bd35fc5dddd74e2c001a10ab9ab265e6f776d126c849785"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "fabric",
+    "mod": "ftb-chunks",
+    "version": "2101.1.22",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2101.1.22/ftb-chunks-fabric-2101.1.22.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2101.1.22/ftb-chunks-fabric-2101.1.22.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2101.1.22/ftb-chunks-fabric-2101.1.22-sources.jar",
+    "pom_sha256": "29f609858f440bcbd18da64bb216d6f444b08a1376296343e0c448d56fa32302",
+    "sources_sha256": "d7a88a4f9e1478c809ea96ab38287c4337acba4e91ea706090397a923dafb5db"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "fabric",
+    "mod": "ftb-teams",
+    "version": "2101.1.11",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2101.1.11/ftb-teams-fabric-2101.1.11.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2101.1.11/ftb-teams-fabric-2101.1.11.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2101.1.11/ftb-teams-fabric-2101.1.11-sources.jar",
+    "pom_sha256": "85957877b5beef80302819fe9a84ef9ece87d4344a664d94ea928ea85ec61354",
+    "sources_sha256": "7313798f36c1c519b765a68d8a5f87779b828316c32a63fc09ab9bc0b354b729"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "fabric",
+    "mod": "ftb-library",
+    "version": "2101.1.35",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2101.1.35/ftb-library-fabric-2101.1.35.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2101.1.35/ftb-library-fabric-2101.1.35.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2101.1.35/ftb-library-fabric-2101.1.35-sources.jar",
+    "pom_sha256": "abe6a65c27c63fbed94924a02a7266b16bdd8a30110cd05e89aaa55e080d5323",
+    "sources_sha256": "3193784355f12573b02b0445ae9808940e5cc42e40745b7f3decbe3ad0cc7be1"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "fabric",
+    "mod": "ftb-ranks",
+    "version": "2101.1.4",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2101.1.4/ftb-ranks-fabric-2101.1.4.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2101.1.4/ftb-ranks-fabric-2101.1.4.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2101.1.4/ftb-ranks-fabric-2101.1.4-sources.jar",
+    "pom_sha256": "86b803f14752551e4635d68a95162c11203cbb9d7574cc65e75b22723bad28bc",
+    "sources_sha256": "dedf80227c858d1ae5593782b1135b1a474b1126d962b678fadbbc5c31d1613e"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "fabric",
+    "mod": "opac",
+    "version": "fabric-1.21.1-0.30.3",
+    "version_id": "y7JKBy6O",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/y7JKBy6O/open-parties-and-claims-fabric-1.21.1-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/y7JKBy6O/open-parties-and-claims-fabric-1.21.1-0.30.3-sources.jar",
+    "sources_sha256": "3bce60cefa0638cb4461d8c4048551848173da56d7f408b0ecd7e3c77b6542ea"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "forge",
+    "mod": "opac",
+    "version": "forge-1.21.1-0.30.3",
+    "version_id": "ajQ3yoDR",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/ajQ3yoDR/open-parties-and-claims-forge-1.21.1-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/ajQ3yoDR/open-parties-and-claims-forge-1.21.1-0.30.3-sources.jar",
+    "sources_sha256": "f74044f343a5b142894beba060ae8f336c6fa297bc23b48171b67fe4c2db279a"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "neoforge",
+    "mod": "ftb-chunks",
+    "version": "2101.1.22",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.22/ftb-chunks-neoforge-2101.1.22.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.22/ftb-chunks-neoforge-2101.1.22.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/2101.1.22/ftb-chunks-neoforge-2101.1.22-sources.jar",
+    "pom_sha256": "a9d7f00dff0170aa41ef92ebd1061e711280c19d8b6ab926edab3eb7c4044383",
+    "sources_sha256": "64e02e474a5e354dda6881eb0017c89b41e016ae8e622524c5bea01f3dea370a"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "neoforge",
+    "mod": "ftb-teams",
+    "version": "2101.1.11",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/2101.1.11/ftb-teams-neoforge-2101.1.11-sources.jar",
+    "pom_sha256": "e38900f90e06bdbcfe478e7cd49f1786a5cc550674a3ae23c3c23cefe9da37ce",
+    "sources_sha256": "8620131030b7d71b3ad4ccab5d6df8c6426e3529726df2767bc837c9af994664"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "neoforge",
+    "mod": "ftb-library",
+    "version": "2101.1.35",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.35/ftb-library-neoforge-2101.1.35.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.35/ftb-library-neoforge-2101.1.35.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/2101.1.35/ftb-library-neoforge-2101.1.35-sources.jar",
+    "pom_sha256": "7a3c31c51360495635f93cd648a07bb8715edfbcdf72625cd2fd5dfad31c270a",
+    "sources_sha256": "ad3a0759772b3d12241b9b5424ebd41cbde32f256208b6621075720c2a9c2574"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "neoforge",
+    "mod": "ftb-ranks",
+    "version": "2101.1.4",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/2101.1.4/ftb-ranks-neoforge-2101.1.4.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/2101.1.4/ftb-ranks-neoforge-2101.1.4.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/2101.1.4/ftb-ranks-neoforge-2101.1.4-sources.jar",
+    "pom_sha256": "0fa71a3f27134801681f0b06098c4a0b930e296f8b614e9642a356493688530c",
+    "sources_sha256": "33f042912baddbbb1ab3af840d6afd2bef8ab46cd7a9f7a4848a84e3cd931627"
+  },
+  {
+    "mc": "1.21.1",
+    "loader": "neoforge",
+    "mod": "opac",
+    "version": "neoforge-1.21.1-0.30.3",
+    "version_id": "AzM8UF04",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/AzM8UF04/open-parties-and-claims-neoforge-1.21.1-0.30.3.jar",
+    "dependencies": [],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/AzM8UF04/open-parties-and-claims-neoforge-1.21.1-0.30.3-sources.jar",
+    "sources_sha256": "36bc6d8727a067a9dbbe0c34a8b79c630076c5b301c7e33188f9548b9fb426df"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "fabric",
+    "mod": "ftb-chunks",
+    "version": "26.1.2.8",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/26.1.2.8/ftb-chunks-fabric-26.1.2.8.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/26.1.2.8/ftb-chunks-fabric-26.1.2.8.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/26.1.2.8/ftb-chunks-fabric-26.1.2.8-sources.jar",
+    "pom_sha256": "c4b8e5afaef000399390b824d6bbab2e13dcbb52cc465506783aadccd3d11f6d",
+    "sources_sha256": "d88a3a872138945519cb38199f044e578eaafe4c518d60686d55ac28042dc854"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "fabric",
+    "mod": "ftb-teams",
+    "version": "26.1.2.4",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/26.1.2.4/ftb-teams-fabric-26.1.2.4.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/26.1.2.4/ftb-teams-fabric-26.1.2.4.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/26.1.2.4/ftb-teams-fabric-26.1.2.4-sources.jar",
+    "pom_sha256": "543ff6af04ceb6f282af8dde6316a95b0e29281bedb70cd92be16a973932cf1d",
+    "sources_sha256": "63dc123ce4bc6dbd810f098f3036d88da446288f3068f4e14dc472dc725b1ce2"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "fabric",
+    "mod": "ftb-library",
+    "version": "26.1.2.7",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/26.1.2.7/ftb-library-fabric-26.1.2.7.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/26.1.2.7/ftb-library-fabric-26.1.2.7.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/26.1.2.7/ftb-library-fabric-26.1.2.7-sources.jar",
+    "pom_sha256": "38cb4a635c610d442a8bde473c64b5d2eb28b1b7669a92f72aefae1e3879d64b",
+    "sources_sha256": "eeca61c7c9a07039b2beb4bebcafbed79667e430b375cfe40fa21f254e647d36"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "fabric",
+    "mod": "ftb-ranks",
+    "version": "26.1.2.3",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/26.1.2.3/ftb-ranks-fabric-26.1.2.3.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/26.1.2.3/ftb-ranks-fabric-26.1.2.3.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/26.1.2.3/ftb-ranks-fabric-26.1.2.3-sources.jar",
+    "pom_sha256": "ec3a5c83f7e646894472ed0744a0b68b59817e85ac268a59f377b3453997b140",
+    "sources_sha256": "8566b60ef89be259265c13dd92d6d5604a49ebbe5a21a29b49f94286762244de"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "fabric",
+    "mod": "opac",
+    "version": "fabric-26.1.2-0.30.3",
+    "version_id": "oT1wWKmM",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/oT1wWKmM/open-parties-and-claims-fabric-26.1.2-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/oT1wWKmM/open-parties-and-claims-fabric-26.1.2-0.30.3-sources.jar",
+    "sources_sha256": "40120605d9d3e942b86417e4862cd399354ebe84e9983626ce75b3696f700305"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "forge",
+    "mod": "opac",
+    "version": "forge-26.1.2-0.30.3",
+    "version_id": "TXEN72Kt",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/TXEN72Kt/open-parties-and-claims-forge-26.1.2-0.30.3.jar",
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "ohNO6lps",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/TXEN72Kt/open-parties-and-claims-forge-26.1.2-0.30.3-sources.jar",
+    "sources_sha256": "acd8da2cfee5abd0a6278ee6f4c6757452a91e4142376a8c0f839b475d71f3c1"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "neoforge",
+    "mod": "ftb-chunks",
+    "version": "26.1.2.8",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/26.1.2.8/ftb-chunks-neoforge-26.1.2.8.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/26.1.2.8/ftb-chunks-neoforge-26.1.2.8.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-neoforge/26.1.2.8/ftb-chunks-neoforge-26.1.2.8-sources.jar",
+    "pom_sha256": "98023eb831da064af4a5ed7cfcb8a6cdef45d3f9b3e16b2dd8adbf15b760074e",
+    "sources_sha256": "61994cec7cf74e7b24d134b8a515a18ccf6e77d275f53998a75c4d83302c5eb7"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "neoforge",
+    "mod": "ftb-teams",
+    "version": "26.1.2.4",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/26.1.2.4/ftb-teams-neoforge-26.1.2.4.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/26.1.2.4/ftb-teams-neoforge-26.1.2.4.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-neoforge/26.1.2.4/ftb-teams-neoforge-26.1.2.4-sources.jar",
+    "pom_sha256": "9c63c393530915c49e6c82a5e470943cb2a629d78773d89406d16a595330a4b1",
+    "sources_sha256": "d628edc490c907893d075c760d1fbb1b5b270bab4c19730548691c0083810cd3"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "neoforge",
+    "mod": "ftb-library",
+    "version": "26.1.2.7",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/26.1.2.7/ftb-library-neoforge-26.1.2.7.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/26.1.2.7/ftb-library-neoforge-26.1.2.7.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-neoforge/26.1.2.7/ftb-library-neoforge-26.1.2.7-sources.jar",
+    "pom_sha256": "de40e43be15b6963b785ac5e7c5b75bfc6af82df33062a236096ba0673d12aa2",
+    "sources_sha256": "43d4fe36d00654e11c22f8fcebaf4856cc1bb3786b6393a8f40036987d2e143f"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "neoforge",
+    "mod": "ftb-ranks",
+    "version": "26.1.2.3",
+    "jar": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/26.1.2.3/ftb-ranks-neoforge-26.1.2.3.jar",
+    "pom": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/26.1.2.3/ftb-ranks-neoforge-26.1.2.3.pom",
+    "sources": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-neoforge/26.1.2.3/ftb-ranks-neoforge-26.1.2.3-sources.jar",
+    "pom_sha256": "4419c70ebe1a49332fbf3be4e48d108f76a74ee313edb8f966acd0b19b9e83cc",
+    "sources_sha256": "4c9a77372b6ff461f25cb59f149d460db3725d5a4c8f5a340cceb663a2ef46a6"
+  },
+  {
+    "mc": "26.1.2",
+    "loader": "neoforge",
+    "mod": "opac",
+    "version": "neoforge-26.1.2-0.30.3",
+    "version_id": "FpA6XJCN",
+    "jar": "https://cdn.modrinth.com/data/gF3BGWvG/versions/FpA6XJCN/open-parties-and-claims-neoforge-26.1.2-0.30.3.jar",
+    "dependencies": [],
+    "sources": "https://cdn.modrinth.com/data/gF3BGWvG/versions/FpA6XJCN/open-parties-and-claims-neoforge-26.1.2-0.30.3-sources.jar",
+    "sources_sha256": "16fe950d7e5fd343400c174cc09be147e68672169d29ee15e2bb1c3b84074104"
+  }
+]

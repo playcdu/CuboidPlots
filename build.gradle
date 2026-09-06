@@ -1,0 +1,5 @@
+allprojects {
+    group = 'dev.cuboidplots'
+    version = rootProject.mod_version
+    repositories { mavenCentral() }
+}
