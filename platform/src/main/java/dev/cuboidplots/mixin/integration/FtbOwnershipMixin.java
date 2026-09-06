@@ -1,21 +1,30 @@
 package dev.cuboidplots.mixin.integration;
 
+import com.llamalad7.mixinextras.injector.wrapoperation.*;
 import dev.cuboidplots.platform.AddonRuntime;
-import dev.ftb.mods.ftbchunks.data.ClaimedChunkImpl;
-import dev.ftb.mods.ftbchunks.data.ChunkTeamDataImpl;
+import dev.ftb.mods.ftbchunks.FTBChunks;
+import dev.ftb.mods.ftbchunks.data.ClaimedChunk;
+import dev.ftb.mods.ftbchunks.data.FTBChunksTeamData;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.*;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-/** Team transfers can replace a claim's team without unregistering its chunk. */
-@Mixin(value=ClaimedChunkImpl.class,remap=false)
+/** This older upstream assigns a public field instead of calling setTeamData. */
+@Mixin(value = FTBChunks.class, remap = false)
 public abstract class FtbOwnershipMixin {
-    @Inject(method="setTeamData",at=@At("HEAD"),remap=false)
-    private void cuboidplots$transfer(ChunkTeamDataImpl replacement,CallbackInfo info){
-        ClaimedChunkImpl claim=(ClaimedChunkImpl)(Object)this;
-        if(!claim.getTeamData().getTeam().getId().equals(replacement.getTeam().getId())){
-            var pos=claim.getPos();
-            AddonRuntime.ownershipChanged(pos.dimension().location().toString(),pos.x(),pos.z());
-        }
-    }
+  @WrapOperation(
+      method = "transferClaims",
+      at =
+          @At(
+              value = "FIELD",
+              target =
+                  "Ldev/ftb/mods/ftbchunks/data/ClaimedChunk;teamData:Ldev/ftb/mods/ftbchunks/data/FTBChunksTeamData;",
+              opcode = org.objectweb.asm.Opcodes.PUTFIELD),
+      remap = false)
+  private void cuboidplots$transfer(
+      ClaimedChunk claim, FTBChunksTeamData replacement, Operation<Void> original) {
+    if (!claim.teamData.getTeamId().equals(replacement.getTeamId()))
+      AddonRuntime.ownershipChanged(
+          claim.pos.dimension.location().toString(), claim.pos.x, claim.pos.z);
+    original.call(claim, replacement);
+  }
 }

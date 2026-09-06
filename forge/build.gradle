@@ -5,9 +5,9 @@ plugins {
 }
 group = 'dev.cuboidplots'
 version = '0.1.0'
-base { archivesName = 'cuboidplots-1.20.1-forge' }
+base { archivesName = 'cuboidplots-1.18.2-forge' }
 java { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
-minecraft { mappings channel: 'official', version: '1.20.1' }
+minecraft { mappings channel: 'official', version: '1.18.2' }
 mixin { add sourceSets.main, 'cuboidplots.refmap.json'; config 'cuboidplots.mixins.json' }
 repositories {
     mavenCentral()
@@ -17,13 +17,13 @@ repositories {
     maven { url = 'https://api.modrinth.com/maven' }
 }
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.20.1-47.4.10'
-    implementation fg.deobf('dev.ftb.mods:ftb-chunks-forge:2001.3.8') { transitive = false }
-    implementation fg.deobf('dev.ftb.mods:ftb-teams-forge:2001.3.2') { transitive = false }
-    implementation fg.deobf('dev.ftb.mods:ftb-library-forge:2001.2.13') { transitive = false }
-    implementation fg.deobf('dev.ftb.mods:ftb-ranks-forge:2001.1.7') { transitive = false }
-    implementation fg.deobf('dev.architectury:architectury-forge:9.2.14') { transitive = false }
-    implementation fg.deobf('maven.modrinth:open-parties-and-claims:forge-1.20.1-0.30.3') { transitive = false }
+    minecraft 'net.minecraftforge:forge:1.18.2-40.3.12'
+    implementation fg.deobf('dev.ftb.mods:ftb-chunks-forge:1802.3.19-build.362') { transitive = false }
+    implementation fg.deobf('dev.ftb.mods:ftb-teams-forge:1802.2.11-build.152') { transitive = false }
+    implementation fg.deobf('dev.ftb.mods:ftb-library-forge:1802.3.12-build.726') { transitive = false }
+    implementation fg.deobf('dev.ftb.mods:ftb-ranks-forge:1802.1.11-build.71') { transitive = false }
+    implementation fg.deobf('dev.architectury:architectury-forge:4.12.94') { transitive = false }
+    implementation fg.deobf('maven.modrinth:open-parties-and-claims:forge-1.18.2-0.30.3') { transitive = false }
     implementation 'io.github.llamalad7:mixinextras-common:0.4.1'
     jarJar(group: 'io.github.llamalad7', name: 'mixinextras-forge', version: '[0.4.1,0.5)') { jarJar.pin(it, '0.4.1') }
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
@@ -37,7 +37,7 @@ sourceSets.main.resources.srcDir '../platform/src/main/resources'
 if (project.hasProperty('testHost')) {
     sourceSets.main.java.srcDirs += ['../testhost/src/main/java', 'src/testHost/java']
     sourceSets.main.java.exclude '**/FabricAcceptance.java'
-    base.archivesName = 'cuboidplots-1.20.1-forge-testhost'
+    base.archivesName = 'cuboidplots-1.18.2-forge-testhost'
 }
 jarJar.enable()
 tasks.withType(JavaCompile).configureEach { options.release = 17; options.encoding = 'UTF-8'; options.incremental = false }
@@ -55,6 +55,7 @@ processResources {
         def configFile = file("$destinationDir/cuboidplots.mixins.json")
         def config = new groovy.json.JsonSlurper().parse(configFile)
         config.refmap = 'cuboidplots.refmap.json'
+        if (project.hasProperty('testHost')) config.mixins.add('integration.FtbTransferAccess')
         configFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(config))
     }
 }

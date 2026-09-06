@@ -1,8 +1,8 @@
 """Run a private dedicated server, capture output, stop cleanly after tests or startup."""
 import argparse, pathlib, subprocess, threading, time
 ROOT=pathlib.Path(__file__).resolve().parents[1]
-parser=argparse.ArgumentParser();parser.add_argument('parent',choices=['ftb','opac']);parser.add_argument('--loader',choices=['fabric','forge'],default='fabric');parser.add_argument('--startup-only',action='store_true');args=parser.parse_args()
-directory=ROOT/f'.work/servers/1.20.1/{args.loader}/{args.parent}'
+parser=argparse.ArgumentParser();parser.add_argument('parent',choices=['ftb','opac']);parser.add_argument('--mc',choices=['1.18.2','1.20.1'],default='1.20.1');parser.add_argument('--loader',choices=['fabric','forge'],default='fabric');parser.add_argument('--startup-only',action='store_true');args=parser.parse_args()
+directory=ROOT/f'.work/servers/{args.mc}/{args.loader}/{args.parent}'
 java=next((ROOT/'.work/toolchains/jdk17').glob('*/bin/java.exe'))
 log=directory/('startup-only.log' if args.startup_only else 'integration.log')
 if log.exists():
@@ -10,7 +10,8 @@ if log.exists():
     shutil.copy2(log, directory/(log.stem+'-'+str(time.time_ns())+'.log'))
 command=[str(java),'-Xms256M','-Xmx1536M',f'-Djava.io.tmpdir={ROOT / ".work/tmp"}']
 if not args.startup_only:command.append('-Dcuboidplots.test=true')
-command+=['-jar','fabric-server-launch.jar','nogui'] if args.loader=='fabric' else ['@libraries/net/minecraftforge/forge/1.20.1-47.4.10/win_args.txt','nogui']
+forge_version='1.20.1-47.4.10' if args.mc=='1.20.1' else '1.18.2-40.3.12'
+command+=['-jar','fabric-server-launch.jar','nogui'] if args.loader=='fabric' else [f'@libraries/net/minecraftforge/forge/{forge_version}/win_args.txt','nogui']
 process=subprocess.Popen(command,cwd=directory,stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,text=True,encoding='utf-8',errors='replace')
 (directory/'test-server.pid').write_text(str(process.pid))
 start=time.monotonic();done=False

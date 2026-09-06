@@ -11,13 +11,13 @@ dependencies {
     mappings loom.officialMojangMappings()
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
-    modImplementation('dev.ftb.mods:ftb-chunks-fabric:2001.3.8') { transitive = false }
-    modImplementation('dev.ftb.mods:ftb-teams-fabric:2001.3.2') { transitive = false }
-    modImplementation('dev.ftb.mods:ftb-library-fabric:2001.2.13') { transitive = false }
-    modImplementation('dev.ftb.mods:ftb-ranks-fabric:2001.1.7') { transitive = false }
-    modImplementation('dev.architectury:architectury-fabric:9.2.14') { transitive = false }
-    modImplementation('me.shedaniel.cloth:cloth-config-fabric:11.1.136') { transitive = false }
-    modImplementation('maven.modrinth:open-parties-and-claims:fabric-1.20.1-0.30.3') { transitive = false }
+    modImplementation('dev.ftb.mods:ftb-chunks-fabric:1802.3.19-build.362') { transitive = false }
+    modImplementation('dev.ftb.mods:ftb-teams-fabric:1802.2.11-build.152') { transitive = false }
+    modImplementation('dev.ftb.mods:ftb-library-fabric:1802.3.12-build.726') { transitive = false }
+    modImplementation('dev.ftb.mods:ftb-ranks-fabric:1802.1.11-build.71') { transitive = false }
+    modImplementation('dev.architectury:architectury-fabric:4.12.94') { transitive = false }
+    modImplementation('me.shedaniel.cloth:cloth-config-fabric:6.5.116') { transitive = false }
+    modImplementation('maven.modrinth:open-parties-and-claims:fabric-1.18.2-0.30.3') { transitive = false }
     implementation project(':core')
     include project(':core')
     include(implementation('io.github.llamalad7:mixinextras-fabric:0.4.1'))
@@ -37,6 +37,10 @@ processResources {
             def metadata = new groovy.json.JsonSlurper().parse(metadataFile)
             metadata.entrypoints.main.add('dev.cuboidplots.testhost.FabricAcceptance')
             metadataFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(metadata))
+            def mixinFile=file("$destinationDir/cuboidplots.mixins.json")
+            def mixinConfig=new groovy.json.JsonSlurper().parse(mixinFile)
+            mixinConfig.mixins.add('integration.FtbTransferAccess')
+            mixinFile.text=groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(mixinConfig))
         }
     }
 }
