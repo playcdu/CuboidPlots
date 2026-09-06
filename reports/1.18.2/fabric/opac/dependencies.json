@@ -1,0 +1,32 @@
+[
+  {
+    "file": "fabric-api-0.77.0+1.18.2.jar",
+    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/qk28POfr/fabric-api-0.77.0%2B1.18.2.jar",
+    "sha256": "6f822fb5aa481b4a6c1cfb8612bbfecc62a58e69d2c792f61a0eafa580e75999"
+  },
+  {
+    "file": "architectury-4.12.94-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ql0OowZw/architectury-4.12.94-fabric.jar",
+    "sha256": "c27cbe1469997024e8daf87c9d7aa21785e69a3feffa59c48d0f9b4d5e58afd4"
+  },
+  {
+    "file": "cloth-config-fabric-6.5.116.jar",
+    "url": "https://maven.shedaniel.me/me/shedaniel/cloth/cloth-config-fabric/6.5.116/cloth-config-fabric-6.5.116.jar",
+    "sha256": "206101c332ca76767e2a99c555a65147153b46c5c7a4b43555c04746e7ff2b68"
+  },
+  {
+    "file": "open-parties-and-claims-fabric-1.18.2-0.30.3.jar",
+    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/sKct319e/open-parties-and-claims-fabric-1.18.2-0.30.3.jar",
+    "sha256": "68c2af56b6fa8f15eb32f4349ae5eb26e3403ae054a3ed7e968c9d5efc62eaa6"
+  },
+  {
+    "file": "ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
+    "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/XGKEYlsw/ForgeConfigAPIPort-v3.2.4-1.18.2-Fabric.jar",
+    "sha256": "50bae68fdd7c1689a461775782f7bf9b67cd7d99d1772115ffd48e27de46cd3c"
+  },
+  {
+    "file": "fabric-server-launch.jar",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2/0.16.14/1.0.3/server/jar",
+    "sha256": "00bb5ba31240969b57f755abbbc92a0d296332083e1c51be7db52e919bf4c1ce"
+  }
+]

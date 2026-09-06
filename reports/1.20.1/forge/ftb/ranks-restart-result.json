@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "version": "1.20.1",
+  "checks": [
+    "rank limits and charged usage survive actual restart",
+    "created cuboid persists",
+    "deletion releases restarted quota"
+  ],
+  "manualClient": false
+}

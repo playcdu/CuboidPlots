@@ -1,0 +1,25 @@
+CONSOLE tp CuboidRanks -159 120 -159
+CONSOLE ftbranks reload
+PASS numeric rank nodes override configuration fallback
+PASS exact count and inclusive volume limits permit creation
+CONSOLE ftbranks reload
+PASS count limit enforced independently
+CONSOLE ftbranks reload
+PASS volume limit enforced independently
+PASS failed resize preserves charged usage
+CONSOLE ftbranks reload
+PASS rank downgrade preserves region and permits volume reduction
+PASS zero rank limits reject increases
+PASS deletion permitted while over quota
+CONSOLE ftbranks reload
+PASS fractional provider value fails closed
+CONSOLE ftbranks reload
+PASS missing nodes use configured fallback
+CONSOLE ftbranks reload
+PASS explicit unlimited rank values
+CONSOLE ftbranks reload
+CONSOLE ftbranks add CuboidRanks vip
+PASS live rank membership addition changes limits
+CONSOLE ftbranks remove CuboidRanks vip
+PASS live rank membership removal changes limits
+CONSOLE ftbranks reload

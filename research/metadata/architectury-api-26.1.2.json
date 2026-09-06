@@ -1,0 +1,402 @@
+[
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "hNxqF6r7",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.12",
+    "version_number": "20.0.12+fabric",
+    "changelog": "## Architectury v20.0.12 for 26.1.2\nUpdated at **2026-07-26 15:19**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Update shadow plugin",
+    "changelog_url": null,
+    "date_published": "2026-07-26T15:20:23.853045Z",
+    "downloads": 237300,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "yfrght1S",
+        "hashes": {
+          "sha1": "bd3c9d7dce7fed0bbf3db8d7d1f49bedc5ff2091",
+          "sha512": "d8f8ecbc8f4769e9c225d5c7eb9aac0c66fdcaae92bd1e1dea74282b2d24337c7a5bb63ecf3b1465bb639ab15f10b394a7df6e283ba36791bdab377bda8e6383"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/hNxqF6r7/architectury-fabric-20.0.12.jar",
+        "filename": "architectury-fabric-20.0.12.jar",
+        "primary": true,
+        "size": 585817,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "qOe8Iyhj",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.10",
+    "version_number": "20.0.10+fabric",
+    "changelog": "## Architectury v20.0.10 for 26.1.2\nUpdated at **2026-07-25 13:41**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix publishing",
+    "changelog_url": null,
+    "date_published": "2026-07-25T13:42:35.316879Z",
+    "downloads": 9518,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "D1fHpmMM",
+        "hashes": {
+          "sha1": "6db308cfc79adffa1fa7e2b214f8ef75f2377611",
+          "sha512": "db104fce179fe9600436895f278ddf55f29ba9b90cda009401be546ac90b92946c41dd5e9443c6b173c1a3e0ea19b5bb6487ba4675b7ce9f6cd49396f2a66a2f"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/qOe8Iyhj/architectury-fabric-20.0.10.jar",
+        "filename": "architectury-fabric-20.0.10.jar",
+        "primary": true,
+        "size": 585503,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "bh2npsZ5",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.9",
+    "version_number": "20.0.9+fabric",
+    "changelog": "## Architectury v20.0.9 for 26.1.2\nUpdated at **2026-07-14 09:43**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix NoClassDefFoundError in ArchitecturyFluidAttributesForge on dedicated server",
+    "changelog_url": null,
+    "date_published": "2026-07-14T09:44:19.920076Z",
+    "downloads": 89204,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "Da4UbxSD",
+        "hashes": {
+          "sha1": "48e9f7a5bc803a209c728122dc594ad5e44c9cae",
+          "sha512": "56b51e647fea5aca76cae727b5fcf0514bfa0a516ed0795cdd4b71bcac14f9fd0f9deb10069898f4944c7da20901c51329fe2e036fbba92446b8f9d8f7a9d6f2"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/bh2npsZ5/architectury-fabric-20.0.9.jar",
+        "filename": "architectury-fabric-20.0.9.jar",
+        "primary": true,
+        "size": 585491,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "yJVXbD2t",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.8",
+    "version_number": "20.0.8+fabric",
+    "changelog": "## Architectury v20.0.8 for 26.1.2\nUpdated at **2026-07-11 16:56**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix typing in any screen throws IllegalStateException with Fabric API >= 0.154.0 (#726)",
+    "changelog_url": null,
+    "date_published": "2026-07-11T16:56:36.458865Z",
+    "downloads": 19158,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "vCXc9jcD",
+        "hashes": {
+          "sha512": "7ba47444c6d0a6897c8880ed2a8a36b24d5a495eea0ade9a3106ee002b4295ab92f9fbf37ce54b7e2a6bee0186ffbb556f694be479800b0d18e2097146eb0f43",
+          "sha1": "2672dbc454e0c268994f5bfa3b22e9fca37d5a58"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/yJVXbD2t/architectury-fabric-20.0.8.jar",
+        "filename": "architectury-fabric-20.0.8.jar",
+        "primary": true,
+        "size": 585468,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "fe6U0jSg",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.7",
+    "version_number": "20.0.7+fabric",
+    "changelog": "## Architectury v20.0.7 for 26.1.2\nUpdated at **2026-06-17 19:45**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix AW injection on fabric and small cleanup",
+    "changelog_url": null,
+    "date_published": "2026-06-17T19:46:36.254950Z",
+    "downloads": 265240,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "NtZsNMYx",
+        "hashes": {
+          "sha512": "440f904211cf4889d8a9f39b544556b485052cdf746caef061a4765dcc51a50b654d2c0c0257a836c48ba54d4eb8c7af1d47f87249cb39b623d4a09af34cc11c",
+          "sha1": "0d860c9e9cb5c44fb638a0f92dedd0c66bc12901"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/fe6U0jSg/architectury-fabric-20.0.7.jar",
+        "filename": "architectury-fabric-20.0.7.jar",
+        "primary": true,
+        "size": 586725,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "JlYOY8jK",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1.2] v20.0.6",
+    "version_number": "20.0.6+fabric",
+    "changelog": "## Architectury v20.0.6 for 26.1.2\nUpdated at **2026-06-11 16:48**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Update to loom 1.17 and bump minimum neoforge version",
+    "changelog_url": null,
+    "date_published": "2026-06-11T16:48:58.794299Z",
+    "downloads": 44261,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "T9cV7wzl",
+        "hashes": {
+          "sha512": "bdf46fb424d12ca08d2ddf03caa825eb827636038df4303fd065be4b8b76d31462f09041a7c595a023dd739e0af10c21066b8ab617edde70e8ead97bc8eaf0e4",
+          "sha1": "4f9bad8b32a683492ad93ba45c50386b0541fbc8"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/JlYOY8jK/architectury-fabric-20.0.6.jar",
+        "filename": "architectury-fabric-20.0.6.jar",
+        "primary": true,
+        "size": 586701,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "4nUW0J9j",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1/26.1.1/26.1.2] v20.0.5",
+    "version_number": "20.0.5+fabric",
+    "changelog": "## Architectury v20.0.5 for 26.1/26.1.1/26.1.2\nUpdated at **2026-06-04 15:39**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix fabric call to FluidStackTemplate#init();",
+    "changelog_url": null,
+    "date_published": "2026-06-04T15:39:58.780732Z",
+    "downloads": 33285,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "I2Y2sBPB",
+        "hashes": {
+          "sha1": "4090b1b07b31918997d613f6cf50d01aca2d60f2",
+          "sha512": "e35d78d541ea67dfe15af6c0e906833ba540a63a48569af2a92d4519009941cabf29abc20e1b2bf5cd386d5b9ac3acc3b9f1c2310639536e789169985343be93"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/4nUW0J9j/architectury-fabric-20.0.5.jar",
+        "filename": "architectury-fabric-20.0.5.jar",
+        "primary": true,
+        "size": 586703,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "TZJ7aDWD",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1/26.1.1/26.1.2] v20.0.4",
+    "version_number": "20.0.4+fabric",
+    "changelog": "## Architectury v20.0.4 for 26.1/26.1.1/26.1.2\nUpdated at **2026-06-03 16:34**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Fix game version",
+    "changelog_url": null,
+    "date_published": "2026-06-03T16:35:06.923884Z",
+    "downloads": 89395,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "RL1Vp6LF",
+        "hashes": {
+          "sha512": "b3e06deafe05292699777221399a57a8a8890facadc9148a4194947167e968414da7c80138d4133cc681f8d852417fc7130584b69be6325da9c16567c7f0307e",
+          "sha1": "39ecbab1132941041e5007f7f1358e483382b798"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/TZJ7aDWD/architectury-fabric-20.0.4.jar",
+        "filename": "architectury-fabric-20.0.4.jar",
+        "primary": true,
+        "size": 572494,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_and_server",
+    "id": "shOXdpL9",
+    "project_id": "lhGA9TYQ",
+    "author_id": "OQodw31Z",
+    "featured": false,
+    "name": "[Fabric 26.1/26.1.1/26.1.2] v20.0.2",
+    "version_number": "20.0.2+fabric",
+    "changelog": "## Architectury v20.0.2 for 26.1/26.1.1/26.1.2\nUpdated at **2026-06-03 14:18**.\n[Click here for changelog](https://www.github.com/architectury/architectury/commits/26.1)\n- Temporarily disable license checks",
+    "changelog_url": null,
+    "date_published": "2026-06-03T14:18:31.986189Z",
+    "downloads": 1532,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "W0Dr6yoQ",
+        "hashes": {
+          "sha512": "9bb14f1a908d8db13d6d863624b70065865a0c770911d182c1f7f0c6074cadfcc36c5ab7baebe7f00b0823acc51e3a3544e03550520221e6ebba8d50d7b3992f",
+          "sha1": "8dcc32310708760cc9db0765b2d5e6c393768411"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/shOXdpL9/fabric-20.0.2.jar",
+        "filename": "fabric-20.0.2.jar",
+        "primary": true,
+        "size": 572444,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  }
+]

@@ -1,0 +1,301 @@
+2026-09-07 03:52:17,353 main WARN Advanced terminal features are not available in this environment
+[03:52:17] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.12, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[03:52:17] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.20.1 by Eclipse Adoptium
+[03:52:18] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/opac/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[03:52:18] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Configuration file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\config\fml.toml is not correct. Correcting
+[03:52:18] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[03:52:19] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\libraries\net\minecraftforge\fmlcore\1.18.2-40.3.12\fmlcore-1.18.2-40.3.12.jar is missing mods.toml file
+[03:52:19] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.3.12\javafmllanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:52:19] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.3.12\lowcodelanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:52:19] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\libraries\net\minecraftforge\mclanguage\1.18.2-40.3.12\mclanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:52:19] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[03:52:22] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03:52:22] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[03:52:32] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:52:33] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:52:33] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_VideoController, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:52:33] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:52:40] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.12, for MC 1.18.2 with MCP 20220404.173914
+[03:52:40] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v40.3.12 Initialized
+[03:52:41] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03:52:41] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\config\forge-common.toml is not correct. Correcting
+[03:52:42] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:42] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[03:52:42] [modloading-worker-0/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[03:52:44] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03:52:45] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: AHEAD Current: 40.3.12 Target: null
+[03:52:45] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:52:46] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/opac/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/assets/.mcassetsroot' uses unexpected schema
+[03:52:46] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/opac/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2345!/data/.mcassetsroot' uses unexpected schema
+[03:52:46] [main/WARN] [minecraft/Pack]: Couldn't get pack info for: java.io.FileNotFoundException: Can't find resource pack.mcmeta at D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\opac\mods\cuboidplots.jar
+[03:52:46] [main/WARN] [minecraft/MinecraftServer]: Missing data pack mod:cuboidplots
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [oparties, about, player] and [oparties, about, profile] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [oparties, about, profile] and [oparties, about, player] with inputs: [Player, 0123]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [oclaims, transfer, player] and [oclaims, transfer, profile] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:52:47] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [oclaims, transfer, profile] and [oclaims, transfer, player] with inputs: [Player, 0123]
+[03:52:49] [Worker-Main-30/INFO] [minecraft/RecipeManager]: Loaded 7 recipes
+[03:52:50] [Worker-Main-30/INFO] [minecraft/AdvancementList]: Loaded 1141 advancements
+[03:52:51] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.18.2
+[03:52:51] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[03:52:51] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[03:52:51] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[03:52:51] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25588
+[03:52:51] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[03:52:51] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:52:51] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[03:52:51] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:52:51] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[03:52:52] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\openpartiesandclaims-server.toml is not correct. Correcting
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.defaultLanguage was corrected from null to its default, en_us. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.autosaveInterval was corrected from null to its default, 10. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.playerSubConfigLimit was corrected from null to its default, 64. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.permissionSystem was corrected from null to its default, ftb_ranks. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.primaryPartySystem was corrected from null to its default, ftb_teams. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.maxPlayerGroups was corrected from null to its default, 16. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.playerGroupSpace was corrected from null to its default, 256. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.maxPlayerGroupsPermission was corrected from null to its default, xaero.pac_max_player_groups. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.playerGroupSpacePermission was corrected from null to its default, xaero.pac_player_group_space. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.enabled was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.maxPartyMembers was corrected from null to its default, 64. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.maxPartyAllies was corrected from null to its default, 64. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.maxPartyInvites was corrected from null to its default, 16. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.partyExpirationTime was corrected from null to its default, 720. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.partyExpirationCheckInterval was corrected from null to its default, 360. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.partyChatLogging was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.adminModePermission was corrected from null to its default, xaero.pac_parties_admin_mode. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.parties.impersonationPermission was corrected from null to its default, xaero.pac_parties_impersonation. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.enabled was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.partyOwnedClaims was corrected from null to its default, false. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimBonusPerPartyMember was corrected from null to its default, 100. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.forceloadBonusPerPartyMember was corrected from null to its default, 2. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimBonusForPartyOwner was corrected from null to its default, 0. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.forceloadBonusForPartyOwner was corrected from null to its default, 0. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.allowTouchingClaims was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.overLimitClaimAccessCooldown was corrected from null to its default, 5. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.playerClaimsExpirationTime was corrected from null to its default, 8760. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.playerClaimsExpirationCheckInterval was corrected from null to its default, 360. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.playerClaimsConvertExpiredClaims was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxPlayerClaims was corrected from null to its default, 500. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxPlayerClaimForceloads was corrected from null to its default, 10. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxPlayerClaimsPermission was corrected from null to its default, xaero.pac_max_claims. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxPlayerClaimForceloadsPermission was corrected from null to its default, xaero.pac_max_forceloads. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxSingleClaimActionSize was corrected from null to its default, 121. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.serverClaimPermission was corrected from null to its default, xaero.pac_server_claims. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.moderatorModePermission was corrected from null to its default, xaero.pac_claims_moderator_mode. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.adminModePermission was corrected from null to its default, xaero.pac_claims_admin_mode. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.impersonationPermission was corrected from null to its default, xaero.pac_claims_impersonation. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.teleportationPermission was corrected from null to its default, xaero.pac_claims_teleport. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.maxClaimDistance was corrected from null to its default, 5. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimableDimensionsListType was corrected from null to its default, ALL_BUT. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimableDimensionsList was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.allowExistingClaimsInUnclaimableDimensions was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.allowExistingForceloadsInUnclaimableDimensions was corrected from null to its default, false. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimsSynchronization was corrected from null to its default, ALL. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.claimWelcomeMessages was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityListType was corrected from null to its default, ALL_BUT. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.friendlyChunkProtectedEntityList was corrected from null to its default, [minecraft:boat]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityListType was corrected from null to its default, ONLY. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.hostileChunkProtectedEntityList was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.blockProtectionExceptionList was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityProtectionExceptionList was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityClaimBarrierList was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.forcedBlockProtectionExceptionList was corrected from null to its default, [minecraft:crafting_table]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.blockProtectionOptionalExceptionGroups was corrected from null to its default, [Controls{minecraft:lever, #minecraft:buttons}, Doors{#minecraft:doors, #minecraft:fence_gates, #forge:fence_gates, #minecraft:trapdoors}, Chests{minecraft:chest, minecraft:trapped_chest, #forge:chests/wooden}, Barrels{minecraft:barrel, #forge:barrels}, Ender_Chests{minecraft:ender_chest, #forge:chests/ender}, Shulker_Boxes{#minecraft:shulker_boxes}, Furnaces{minecraft:furnace, minecraft:blast_furnace, minecraft:smoker}, Hoppers{minecraft:hopper}, Dispenser-like{minecraft:dispenser, minecraft:dropper}, Anvils{#minecraft:anvil}, Stonecutters{minecraft:stonecutter}, Grindstones{minecraft:grindstone}, Cartography_Tables{minecraft:cartography_table}, Lecterns{minecraft:lectern}, Smithing_Tables{minecraft:smithing_table}, Looms{minecraft:loom}, Jukeboxes{minecraft:jukebox}, Beds{#minecraft:beds}, Beacons{minecraft:beacon}, Enchanting_Tables{minecraft:enchanting_table}, break$Crops{#minecraft:crops}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.forcedEntityProtectionExceptionList was corrected from null to its default, [minecraft:minecart]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityProtectionOptionalExceptionGroups was corrected from null to its default, [Traders{minecraft:villager, minecraft:wandering_trader}, hand$Item_Frames{minecraft:item_frame}, break$Livestock{minecraft:cow, minecraft:mooshroom, minecraft:sheep, minecraft:chicken, minecraft:pig, minecraft:rabbit, minecraft:goat}, Armor_Stands{minecraft:armor_stand}, Players{minecraft:player}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.forcedEntityClaimBarrierList was corrected from null to its default, [minecraft:falling_block, supplementaries:slingshot_projectile]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityClaimBarrierOptionalGroups was corrected from null to its default, [Players{minecraft:player}, Ender_Pearls{minecraft:ender_pearl}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGrief was corrected from null to its default, [minecraft:sheep, interact$minecraft:potion, interact$minecraft:trident, interact$minecraft:(*_|)arrow, interact$minecraft:ender_pearl, interact$minecraft:egg, interact$minecraft:shulker_bullet]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefEntities was corrected from null to its default, [interact$minecraft:potion, interact$minecraft:trident, interact$minecraft:(*_|)arrow, interact$minecraft:ender_pearl, interact$minecraft:egg, interact$minecraft:shulker_bullet]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entitiesAllowedToAccessPlayers was corrected from null to its default, [interact$minecraft:potion, interact$minecraft:trident, interact$minecraft:(*_|)arrow, interact$minecraft:ender_pearl, interact$minecraft:egg, interact$minecraft:shulker_bullet]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entitiesAllowedToGriefDroppedItems was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.nonBlockGriefingMobs was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityGriefingMobs was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.playerGriefingMobs was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.droppedItemGriefingMobs was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.blockAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.entityAccessEntityGroups was corrected from null to its default, [Zombies{minecraft:zombie, minecraft:zombie_villager, minecraft:husk, minecraft:drowned}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.playerAccessEntityGroups was corrected from null to its default, [Zombies{minecraft:zombie, minecraft:zombie_villager, minecraft:husk, minecraft:drowned}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.droppedItemAccessEntityGroups was corrected from null to its default, [Villagers{minecraft:villager}, Piglins{minecraft:piglin}, Foxes{minecraft:fox}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.staticFakePlayers was corrected from null to its default, [[IntegratedTunnels], 7400926d-1007-4e53-880f-b43e67f2bf29]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.staticFakePlayerClassExceptions was corrected from null to its default, [dan200.computercraft.shared.turtle.core.TurtlePlayer]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.additionalBannedItemsList was corrected from null to its default, [supplementaries:slingshot]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.itemUseProtectionExceptionList was corrected from null to its default, [minecraft:firework_rocket]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.itemUseProtectionOptionalExceptionGroups was corrected from null to its default, [Books{minecraft:written_book, minecraft:writable_book}]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.completelyDisabledItemInteractions was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.completelyDisabledBlockInteractions was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.completelyDisabledEntityInteractions was corrected from null to its default, []. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.completelyDisableFrostWalking was corrected from null to its default, false. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.claims.protection.reducedBoatEntityCollisions was corrected from null to its default, true. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.playerConfigurablePlayerConfigOptions was corrected from null to its default, [claims.protectClaimedChunks, claims.forceload.enabled, claims.name, claims.color, claims.protection.exceptions.fullAccess, claims.protection.exceptions.buttonsByProjectiles, claims.protection.exceptions.targetsByProjectiles, claims.protection.exceptions.platesByPlayers, claims.protection.exceptions.platesByMobs, claims.protection.exceptions.platesByOther, claims.protection.exceptions.tripwireByPlayers, claims.protection.exceptions.tripwireByMobs, claims.protection.exceptions.tripwireByOther, claims.protection.exceptions.cropTrample, claims.protection.exceptions.playerLightning, claims.protection.exceptions.frostWalking, claims.protection.exceptions.entitiesByPlayers, claims.protection.exceptions.entitiesByMobs, claims.protection.exceptions.entitiesByOther, claims.protection.exceptions.entitiesRedirect, claims.protection.exceptions.entitiesByExplosions, claims.protection.exceptions.entitiesByFire, claims.protection.exceptions.netherPortalsPlayers, claims.protection.exceptions.netherPortalsMobs, claims.protection.exceptions.netherPortalsOther, claims.protection.fluidBarrier, claims.protection.dispenserBarrier, claims.protection.pistonBarrier, claims.protection.exceptions.itemTossPlayers, claims.protection.exceptions.itemTossMobs, claims.protection.exceptions.itemTossOther, claims.protection.exceptions.itemTossRedirect, claims.protection.exceptions.mobLoot, claims.protection.playerDeathLoot, claims.protection.exceptions.itemPickupPlayers, claims.protection.exceptions.itemPickupMobs, claims.protection.exceptions.itemPickupRedirect, claims.protection.exceptions.xpPickup, claims.protection.exceptions.raids, claims.protection.exceptions.naturalSpawnHostile, claims.protection.exceptions.naturalSpawnFriendly, claims.protection.exceptions.spawnersHostile, claims.protection.exceptions.spawnersFriendly, claims.protection.exceptions.projectileHitHostileSpawn, claims.protection.exceptions.projectileHitFriendlySpawn, claims.protection.exceptions.reclaimable, parties.name, parties.shareLocationWithParty, parties.shareLocationWithMutualAllyParties, parties.receiveLocationsFromParty, parties.receiveLocationsFromMutualAllyParties, claims.protection.exceptions.groups.block.interact.Controls, claims.protection.exceptions.groups.block.interact.Doors, claims.protection.exceptions.groups.block.interact.Chests, claims.protection.exceptions.groups.block.interact.Barrels, claims.protection.exceptions.groups.block.interact.Ender_Chests, claims.protection.exceptions.groups.block.interact.Shulker_Boxes, claims.protection.exceptions.groups.block.interact.Furnaces, claims.protection.exceptions.groups.block.interact.Hoppers, claims.protection.exceptions.groups.block.interact.Dispenser-like, claims.protection.exceptions.groups.block.interact.Anvils, claims.protection.exceptions.groups.block.interact.Stonecutters, claims.protection.exceptions.groups.block.interact.Grindstones, claims.protection.exceptions.groups.block.interact.Cartography_Tables, claims.protection.exceptions.groups.block.interact.Lecterns, claims.protection.exceptions.groups.block.interact.Smithing_Tables, claims.protection.exceptions.groups.block.interact.Looms, claims.protection.exceptions.groups.block.interact.Jukeboxes, claims.protection.exceptions.groups.block.interact.Beds, claims.protection.exceptions.groups.block.interact.Beacons, claims.protection.exceptions.groups.block.interact.Enchanting_Tables, claims.protection.exceptions.groups.block.break.Crops, claims.protection.exceptions.groups.entity.interact.Traders, claims.protection.exceptions.groups.entity.handInteract.Item_Frames, claims.protection.exceptions.groups.entity.interact.Armor_Stands, claims.protection.exceptions.groups.entity.interact.Players, claims.protection.exceptions.groups.entity.break.Livestock, claims.protection.exceptions.groups.entity.blockAccess.Villagers, claims.protection.exceptions.groups.entity.entityAccess.Zombies, claims.protection.exceptions.groups.entity.playerAccess.Zombies, claims.protection.exceptions.groups.entity.droppedItemAccess.Villagers, claims.protection.exceptions.groups.entity.droppedItemAccess.Piglins, claims.protection.exceptions.groups.entity.droppedItemAccess.Foxes, claims.protection.exceptions.groups.item.interact.Books, claims.protection.exceptions.groups.entity.barrier.Ender_Pearls, /*remove comment to enable*/claims.protection.exceptions.groups.entity.barrier.Players]. 
+[03:52:53] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key serverConfig.opConfigurablePlayerConfigOptions was corrected from null to its default, [claims.bonusChunkClaims, claims.bonusChunkForceloads, bonusPlayerGroups, bonusPlayerGroupSpace]. 
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading server info!
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading player configs...
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded player configs!
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading parties...
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded parties!
+[03:52:53] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[03:52:54] [Server thread/WARN] [xa.pa.OpenPartiesAndClaims/]: The configured primary party system "ftb_teams" isn't registered!
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: default
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loading claims...
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Loaded claims in 52ms
+[03:52:54] [Server thread/WARN] [xa.pa.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
+[03:52:54] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[03:52:54] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[03:52:56] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[03:52:57] [Worker-Main-44/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:52:57] [Worker-Main-44/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:52:57] [Worker-Main-45/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:52:58] [Worker-Main-45/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:52:58] [Worker-Main-44/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 4%
+[03:52:59] [Worker-Main-35/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 6%
+[03:52:59] [Worker-Main-30/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 9%
+[03:53:00] [Worker-Main-38/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 13%
+[03:53:00] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 17%
+[03:53:01] [Worker-Main-42/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 24%
+[03:53:01] [Worker-Main-35/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 30%
+[03:53:02] [Worker-Main-33/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 36%
+[03:53:02] [Worker-Main-41/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 43%
+[03:53:03] [Worker-Main-34/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 50%
+[03:53:03] [Worker-Main-42/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 56%
+[03:53:04] [Worker-Main-41/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 62%
+[03:53:04] [Worker-Main-35/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 69%
+[03:53:05] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 75%
+[03:53:05] [Worker-Main-25/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 79%
+[03:53:06] [Worker-Main-46/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 84%
+[03:53:06] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 89%
+[03:53:07] [Worker-Main-39/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 89%
+[03:53:07] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 10972 ms
+[03:53:07] [Server thread/INFO] [minecraft/DedicatedServer]: Done (15.422s)! For help, type "help"
+[03:53:07] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[CuboidPlots] Ready: parent=openpartiesandclaims, limits=config
+[03:53:07] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1ed0c291
+[03:53:07] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@14b2e8ad
+[03:53:07] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@78dfc279
+[CuboidPlots test] PASS two ordinary non-operator identities
+[CuboidPlots test] PASS parent baseline denies untrusted player without action scope
+[CuboidPlots test] PASS cuboid exception overrides real parent denial
+[CuboidPlots test] PASS standing inside does not grant target outside
+[CuboidPlots test] PASS standing outside can act on authorized target
+[CuboidPlots test] PASS actual game mode destroys authorized block
+[CuboidPlots test] PASS actual game mode leaves denied outside block intact
+[CuboidPlots test] PASS revocation restores real parent denial
+[CuboidPlots test] PASS two same-chunk, stacked, and four-chunk cuboids coexist
+[CuboidPlots test] PASS actual placement allowed independently of breaking
+[CuboidPlots test] PASS place grant does not permit actual breaking
+[CuboidPlots test] PASS break grant does not permit actual placement
+[CuboidPlots test] PASS bed second block beyond boundary refuses exception
+[CuboidPlots test] PASS container-only grant opens actual chest in vertically separate cuboid
+[CuboidPlots test] PASS other player cannot open same chest
+[CuboidPlots test] PASS parent denies ungranted door use
+[CuboidPlots test] PASS door-only grant opens actual two-block door
+[CuboidPlots test] PASS door grant does not permit switch use
+[CuboidPlots test] PASS switch-only exception powers actual isolated lever
+[CuboidPlots test] PASS switch grant does not permit other block interactions
+[CuboidPlots test] PASS other-block exception changes actual note block
+[CuboidPlots test] PASS other-block grant does not permit item-on-block use
+[CuboidPlots test] PASS item-on-block exception carves actual pumpkin
+[CuboidPlots test] PASS parent denies ungranted entity interaction
+[CuboidPlots test] PASS entity interaction traverses parent protection with bounded target
+[CuboidPlots test] PASS entity interaction grant does not permit damage
+[CuboidPlots test] PASS entity damage traverses parent protection independently
+[CuboidPlots test] PASS item-in-air scope has no implicit region grant
+[CuboidPlots test] PASS explicit item-in-air grant uses eye position for bounded food use
+[CuboidPlots test] PASS unbounded bucket effects receive no region exception
+[CuboidPlots test] PASS surveyor is a marked vanilla stick
+[CuboidPlots test] PASS stick clicks set inclusive corners and invoke particle preview
+[CuboidPlots test] PASS selection leaves target blocks intact
+[CuboidPlots test] PASS server opens vanilla 54-slot chest menu plus player inventory
+[CuboidPlots test] PASS menu shift-click cannot take decorative items
+[03:53:16] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[CuboidPlots test] PASS owner places tracked recovery chest through game mode
+[03:53:20] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:21] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 2 return boxes for 00000000-0000-0001-0000-000000000002
+[CuboidPlots test] PASS deletion removes tracked placed block
+[CuboidPlots test] PASS deletion preserves untracked preexisting terrain
+[CuboidPlots test] PASS inventory contents, block loot and dropped items packed across multiple boxes
+[CuboidPlots test] PASS returns reserved for assigned owner, not parent owner
+[CuboidPlots test] PASS actual End parent claim has independent UUID permissions at identical coordinates
+[CuboidPlots test] PASS End cuboid grant does not depend on overworld coordinates
+[CuboidPlots test] PASS actual break allowed in covered chunk 1,0
+[CuboidPlots test] PASS actual break allowed in covered chunk 1,1
+[CuboidPlots test] PASS actual break allowed in covered chunk 2,0
+[CuboidPlots test] PASS actual break allowed in covered chunk 2,1
+[CuboidPlots test] PASS actual parent exception works at a negative chunk boundary
+[03:53:24] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:24] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:24] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:25] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:25] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:25] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:25] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:26] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 1 return boxes for 00000000-0000-0001-0000-000000000002
+[CuboidPlots test] PASS direct parent ownership transfer suspends region
+[CuboidPlots test] PASS parent ownership transfer reserves old assigned owner's items
+[03:53:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:29] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:29] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:29] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:29] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[CuboidPlots test] PASS real parent unclaim suspends stale cuboid grants
+[CuboidPlots test] Test run finished, stopping server
+[03:53:30] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Stopping IO worker...
+[03:53:31] [Server thread/INFO] [xa.pa.OpenPartiesAndClaims/]: Stopped IO worker!
+[03:53:31] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[03:53:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[03:53:31] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[03:53:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:53:32] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:53:33] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:53:33] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:53:33] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:53:33] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:53:33] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,0 +1,3 @@
+PASS rank limits and charged usage survive actual restart
+PASS created cuboid persists
+PASS deletion releases restarted quota

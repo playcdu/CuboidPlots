@@ -19,9 +19,11 @@ The six protocol checks use two network clients speaking vanilla Minecraft 1.20.
 
 The portable Java 8 contract suite additionally passes 78 assertions for geometry, action separation, authorization, quotas, provider failure, downgrade behaviour, persistence corruption, concurrent quota enforcement, overflow and recovery retry behaviour.
 
+Both loaders passed separate live FTB Ranks checks through an ordinary network client: exact limits, independent count/volume overflow, atomic failed resize, downgrade preservation, shrinking and deletion while over quota, zero, invalid fractional values, missing nodes, unlimited values and membership addition/removal. Three further checks verify quota and region persistence through an actual restart and subsequent deletion. See the `ranks-*` evidence files in each FTB directory. The server fixture's original 50 checks continue to use configuration limits.
+
 ## Still outside this verification claim
 
-- Live FTB Ranks membership changes and conditional numeric permissions are not yet exercised by the server suite; its quotas use configuration. Provider and downgrade semantics have portable-core tests.
+- Time-conditional and team-conditional FTB Ranks rules have not been exercised; the live tests cover the always-active member rank and explicit membership changes.
 - Crash injection between individual recovery journal, world and player-data writes has not been performed. Ordinary restart success is not a proof of a crash-atomic transaction.
 - Arbitrary modded blocks, storage, automation and tool effects are outside the reference adapter's action/recovery scope.
 - Manual graphical client testing has not been performed in this environment.

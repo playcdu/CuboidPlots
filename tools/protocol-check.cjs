@@ -4,7 +4,8 @@ const fs = require('node:fs');
 const assert = require('node:assert/strict');
 const {once} = require('node:events');
 const protocol = require('../.work/protocol/node_modules/minecraft-protocol');
-const data = require('../.work/protocol/node_modules/minecraft-data')('1.20.1');
+const version = process.argv[4] || '1.20.1';
+const data = require('../.work/protocol/node_modules/minecraft-data')(version);
 const port = Number(process.argv[2]);
 const resultPath = process.argv[3];
 const clients=[];
@@ -14,7 +15,7 @@ async function waitFor(predicate,label){
   while(!predicate()){for(const client of clients)if(client.failure)throw client.failure;if(Date.now()>end)throw new Error('Timed out: '+label);await delay(50);}
 }
 function connect(name){
-  const client=protocol.createClient({host:'127.0.0.1',port,username:name,version:'1.20.1',auth:'offline'});
+  const client=protocol.createClient({host:'127.0.0.1',port,username:name,version,auth:'offline'});
   clients.push(client);client.previewParticles=0;client.menu=null;client.inventory=null;client.messages=[];
   client.on('error',error=>{client.failure=error;});
   client.on('disconnect',packet=>{client.failure=new Error(JSON.stringify(packet));});
@@ -23,9 +24,11 @@ function connect(name){
   client.on('window_items',packet=>{client.inventory=packet;});
   client.on('world_particles',packet=>{if(packet.particleId===data.particlesByName.end_rod.id)client.previewParticles++;});
   client.on('system_chat',packet=>client.messages.push(packet.content));
+  client.on('chat',packet=>client.messages.push(packet.message));
   return client;
 }
 function command(client,text){
+  if(version==='1.18.2'){client.write('chat',{message:'/'+text});return;}
   client.write('chat_command',{command:text,timestamp:BigInt(Date.now()),salt:0n,argumentSignatures:[],messageCount:0,acknowledged:Buffer.alloc(3)});
 }
 (async()=>{
@@ -52,6 +55,6 @@ function command(client,text){
   await delay(500);
   assert.equal(selector.inventory.carriedItem.present,false,'shift-click does not steal menu decoration');
   for(const client of clients)if(client.failure)throw client.failure;
-  const result={status:'PASS',version:'1.20.1',port,clients:'two unmodified-protocol non-operator clients',checks:['login without addon','surveyor command','54-slot chest menu','private particle delivery','no preview packets to observer','shift-click retains empty cursor'],previewPackets:selector.previewParticles,manualVisualVerification:false};
+  const result={status:'PASS',version,port,clients:'two unmodified-protocol non-operator clients',checks:['login without addon','surveyor command','54-slot chest menu','private particle delivery','no preview packets to observer','shift-click retains empty cursor'],previewPackets:selector.previewParticles,manualVisualVerification:false};
   fs.writeFileSync(resultPath,JSON.stringify(result,null,2));console.log(JSON.stringify(result));
 })().catch(error=>{console.error(error);fs.writeFileSync(resultPath,JSON.stringify({status:'FAIL',error:String(error)}));process.exitCode=1;}).finally(()=>{for(const client of clients)client.end();setTimeout(()=>process.exit(process.exitCode||0),500);});

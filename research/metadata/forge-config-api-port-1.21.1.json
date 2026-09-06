@@ -1,0 +1,352 @@
+[
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "N5qzq0XV",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.6",
+    "version_number": "v21.1.6-1.21.1-Fabric",
+    "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.6-1.21.1] - 2025-11-12\n\n### Fixed\n\n- Fix rare `com.electronwill.nightconfig.core.io.ParsingException` when loading the internal mod config\n\n## [v21.1.5-1.21.1] - 2025-11-09\n\n### Fixed\n\n- Sync `ModConfigSpec` from upstream\n\n## [v21.1.4-1.21.1] - 2025-07-22\n\n### Fixed\n\n- Temporary workaround for `com.electronwill.nightconfig.core.io.WritingException: Failed to write (REPLACE_ATOMIC)` in\n  the Night Config library\n\n## [v21.1.3-1.21.1] - 2024-12-11\n\n### Fixed\n\n- Stop `FileWatcher` default instance on dedicated server exit\n\n## [v21.1.2-1.21.1] - 2024-11-14\n\n### Fixed\n\n- Attempt fixing being unable to manually save Forge configs via `ForgeConfigSpec::save`\n\n## [v21.1.1-1.21.1] - 2024-10-01\n\n### Fixed\n\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n\n### Changed\n\n- Update to Minecraft 1.21.1\n",
+    "changelog_url": null,
+    "date_published": "2025-11-12T09:00:18.938356Z",
+    "downloads": 6335476,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "TliiZenq",
+        "hashes": {
+          "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+          "sha512": "cd9296e78ba969f7aed6e3692aa25eb61c102c79c55ca5f9592576bacaa26feab5d5d48fa30cf07ca852e0f1d42afc4d4558feff69a67b225183d2bc15898cf9"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 633065,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "2cs5LG0X",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.5",
+    "version_number": "v21.1.5-1.21.1-Fabric",
+    "changelog": "# Changelog\n\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.5-1.21.1] - 2025-11-09\n\n### Fixed\n\n- Sync `ModConfigSpec` from upstream\n\n## [v21.1.4-1.21.1] - 2025-07-22\n\n### Fixed\n\n- Temporary workaround for `com.electronwill.nightconfig.core.io.WritingException: Failed to write (REPLACE_ATOMIC)` in\n  the Night Config library\n\n## [v21.1.3-1.21.1] - 2024-12-11\n\n### Fixed\n\n- Stop `FileWatcher` default instance on dedicated server exit\n\n## [v21.1.2-1.21.1] - 2024-11-14\n\n### Fixed\n\n- Attempt fixing being unable to manually save Forge configs via `ForgeConfigSpec::save`\n\n## [v21.1.1-1.21.1] - 2024-10-01\n\n### Fixed\n\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n\n### Changed\n\n- Update to Minecraft 1.21.1\n",
+    "changelog_url": null,
+    "date_published": "2025-11-09T21:34:59.527907Z",
+    "downloads": 52714,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "6zxgKJl1",
+        "hashes": {
+          "sha512": "23bb6c6343ce53fbd585107b678194bb02203a880e41382d2ae9bb6e6e08e34cbd9d6d8e560d80c5cfb9b3c1dd46ae9e9f0cd31fdad0b673366bf99f3c021b46",
+          "sha1": "94205e2b1a0e9c27fc7d479e5437dae9e6db99b4"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/2cs5LG0X/ForgeConfigAPIPort-v21.1.5-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.5-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 632825,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "NZACeAT3",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.4",
+    "version_number": "v21.1.4-1.21.1-Fabric",
+    "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.4-1.21.1] - 2025-07-22\n### Fixed\n- Temporary workaround for `com.electronwill.nightconfig.core.io.WritingException: Failed to write (REPLACE_ATOMIC)` in the Night Config library\n\n## [v21.1.3-1.21.1] - 2024-12-11\n### Fixed\n- Stop `FileWatcher` default instance on dedicated server exit\n\n## [v21.1.2-1.21.1] - 2024-11-14\n### Fixed\n- Attempt fixing being unable to manually save Forge configs via `ForgeConfigSpec::save` \n\n## [v21.1.1-1.21.1] - 2024-10-01\n### Fixed\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n- Update to Minecraft 1.21.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+    "changelog_url": null,
+    "date_published": "2025-07-22T10:14:59.571218Z",
+    "downloads": 2176277,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "M0t4PClY",
+        "hashes": {
+          "sha512": "488937feba5ea256188c64e1a9651f6f231b07f4acef1dbe9144b54f25e7cf83d9ec5ebcb4d8bcedc6e6e33ce3251b729cb778ffb9f5cf6a407d6b42671344fd",
+          "sha1": "23cbb7662b926c465478a4aafb3327d7dc0b0d0c"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/NZACeAT3/ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.4-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 632675,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "NqVx7ywO",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.3",
+    "version_number": "v21.1.3-1.21.1-Fabric",
+    "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.3-1.21.1] - 2024-12-11\n### Fixed\n- Stop `FileWatcher` default instance on dedicated server exit\n\n## [v21.1.2-1.21.1] - 2024-11-14\n### Fixed\n- Attempt fixing being unable to manually save Forge configs via `ForgeConfigSpec::save` \n\n## [v21.1.1-1.21.1] - 2024-10-01\n### Fixed\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n- Update to Minecraft 1.21.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+    "changelog_url": null,
+    "date_published": "2024-12-11T11:45:58.192832Z",
+    "downloads": 2978765,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "uF5vh0Vl",
+        "hashes": {
+          "sha1": "e26f1b5dcdb1b05abe9c223bcf47057622afd432",
+          "sha512": "da65efa5c11d8268fb3e1f765e81b95766610a37fb9bb3ede74865f0c8882beb8897b393581de1d7306cf16ed82cc98db84649173a4acce3bd48bc1d36d34648"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/NqVx7ywO/ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.3-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 631046,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "h0NwCvfv",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.2",
+    "version_number": "v21.1.2-1.21.1-Fabric",
+    "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.2-1.21.1] - 2024-11-14\n### Fixed\n- Attempt fixing being unable to manually save Forge configs via `ForgeConfigSpec::save` \n\n## [v21.1.1-1.21.1] - 2024-10-01\n### Fixed\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n- Update to Minecraft 1.21.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+    "changelog_url": null,
+    "date_published": "2024-11-15T09:49:45.320648Z",
+    "downloads": 1123519,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "TggKJGHk",
+        "hashes": {
+          "sha1": "82439c1228ecdc2890c1ed822f60f31f5d81bf25",
+          "sha512": "bf2e9a5741f52a77e5faaa8c005378a575a265de016d7a10ab1c6eee071e2c363800cdcc981ce7cb95ec15220ea7ef274277d0ecfa9d00de3b5388bff9950d91"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/h0NwCvfv/ForgeConfigAPIPort-v21.1.2-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.2-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 630847,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "ZlbHFjxE",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.1",
+    "version_number": "v21.1.1-1.21.1-Fabric",
+    "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.1-1.21.1] - 2024-10-01\n### Fixed\n- Fix dedicated servers being unable to shut down completely\n\n## [v21.1.0-1.21.1] - 2024-08-09\n- Update to Minecraft 1.21.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+    "changelog_url": null,
+    "date_published": "2024-09-30T23:32:49.714228Z",
+    "downloads": 353173,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "TQ2xbXqo",
+        "hashes": {
+          "sha1": "a5d103f37f8d6dd30e6085ff32b025fd72aa761f",
+          "sha512": "c27fc2c6c33db118880c67958255eb364eabf5147577f3e168636a8e93df5493e603046a72ab10bd1b6b1c0647ac081e3e11104fffd48c68d9d5f1b102a68fbc"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/ZlbHFjxE/ForgeConfigAPIPort-v21.1.1-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.1-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 628814,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      },
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      }
+    ]
+  },
+  {
+    "game_versions": [
+      "1.21.1"
+    ],
+    "loaders": [
+      "fabric"
+    ],
+    "environment": "client_or_server_prefers_both",
+    "id": "gtorYSGm",
+    "project_id": "ohNO6lps",
+    "author_id": "rHdGpxOA",
+    "featured": false,
+    "name": "[FABRIC] [1.21.1] ForgeConfigAPIPort-v21.1.0",
+    "version_number": "v21.1.0-1.21.1-Fabric",
+    "changelog": "# Changelog\nAll notable changes to this project will be documented in this file.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),\nand this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n\n## [v21.1.0-1.21.1] - 2024-08-09\n- Update to Minecraft 1.21.1\n\n[Keep a Changelog]: https://keepachangelog.com/en/1.0.0/\n",
+    "changelog_url": null,
+    "date_published": "2024-08-09T20:54:23.417174Z",
+    "downloads": 110363,
+    "version_type": "release",
+    "status": "listed",
+    "requested_status": null,
+    "files": [
+      {
+        "id": "zFhA1GeF",
+        "hashes": {
+          "sha512": "d3b261d4017c05d25be105a5108b0d9cda6a1cc876858e20adfa78f9d0a704325c839db638a81dcd8b7c096373fd7e58d067c835f3e350df01e81c4383bff72c",
+          "sha1": "623f3f03f0111d2e1b77d4a5dd5f8653cae12b70"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/gtorYSGm/ForgeConfigAPIPort-v21.1.0-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.0-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 626377,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  }
+]

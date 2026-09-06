@@ -1,0 +1,210 @@
+[
+  {
+    "minecraft": "1.21.1",
+    "project": "fabric-api",
+    "version": "0.116.17+1.21.1",
+    "id": "Mys3P7lK",
+    "files": [
+      {
+        "id": "WuOG3t7I",
+        "hashes": {
+          "sha512": "98c478217da19181f0e4df3ea6c2da6bdbda271c7544a4aea048513a49b444f1ff5b71dc0df6303017c48e8ff69b7bb6af6179bdf0d0e09ab3c1ee08411857a8",
+          "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c"
+        },
+        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/Mys3P7lK/fabric-api-0.116.17%2B1.21.1.jar",
+        "filename": "fabric-api-0.116.17+1.21.1.jar",
+        "primary": true,
+        "size": 2452735,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "minecraft": "1.21.1",
+    "project": "architectury-api",
+    "version": "13.0.11+fabric",
+    "id": "Pzc2FP5K",
+    "files": [
+      {
+        "id": "CCNv1IEC",
+        "hashes": {
+          "sha512": "53314eb34890b11ad3c06c6f3ba2d01ae1ca756235ce4f0574e4b0544952a2ab3c628c81b521653d6487d62c5dc3055e06fed6367a3a499bafad909512f0c716",
+          "sha1": "18200609d4c3571c4237b50884966f6fd82431ea"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Pzc2FP5K/architectury-13.0.11-fabric.jar",
+        "filename": "architectury-13.0.11-fabric.jar",
+        "primary": true,
+        "size": 600921,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "minecraft": "1.21.1",
+    "project": "cloth-config",
+    "version": "15.0.140+fabric",
+    "id": "HpMb5wGb",
+    "files": [
+      {
+        "id": "pNDAmw25",
+        "hashes": {
+          "sha512": "1b3f5db4fc1d481704053db9837d530919374bf7518d7cede607360f0348c04fc6347a3a72ccfef355559e1f4aef0b650cd58e5ee79c73b12ff0fc2746797a00",
+          "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4"
+        },
+        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+        "filename": "cloth-config-15.0.140-fabric.jar",
+        "primary": true,
+        "size": 1157166,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "minecraft": "1.21.1",
+    "project": "forge-config-api-port",
+    "version": "v21.1.6-1.21.1-Fabric",
+    "id": "N5qzq0XV",
+    "files": [
+      {
+        "id": "TliiZenq",
+        "hashes": {
+          "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+          "sha512": "cd9296e78ba969f7aed6e3692aa25eb61c102c79c55ca5f9592576bacaa26feab5d5d48fa30cf07ca852e0f1d42afc4d4558feff69a67b225183d2bc15898cf9"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+        "primary": true,
+        "size": 633065,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "5WeWGLoJ",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "minecraft": "26.1.2",
+    "project": "fabric-api",
+    "version": "0.155.2+26.1.2",
+    "id": "uLkEd5dr",
+    "files": [
+      {
+        "id": "icfPHudf",
+        "hashes": {
+          "sha1": "5fe5204ccc96a17340570db66a5b4127b8176246",
+          "sha512": "e07d2e525037e3ce2d6fa18ddc9d4970263a85fd0718fdbd41a1a42c93ec861307d0f5d1461f020ff941bdd5b981a82b5717ee2d6b5c400124bf0171fb21e998"
+        },
+        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/uLkEd5dr/fabric-api-0.155.2%2B26.1.2.jar",
+        "filename": "fabric-api-0.155.2+26.1.2.jar",
+        "primary": true,
+        "size": 2520724,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "minecraft": "26.1.2",
+    "project": "architectury-api",
+    "version": "20.0.12+fabric",
+    "id": "hNxqF6r7",
+    "files": [
+      {
+        "id": "yfrght1S",
+        "hashes": {
+          "sha1": "bd3c9d7dce7fed0bbf3db8d7d1f49bedc5ff2091",
+          "sha512": "d8f8ecbc8f4769e9c225d5c7eb9aac0c66fdcaae92bd1e1dea74282b2d24337c7a5bb63ecf3b1465bb639ab15f10b394a7df6e283ba36791bdab377bda8e6383"
+        },
+        "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/hNxqF6r7/architectury-fabric-20.0.12.jar",
+        "filename": "architectury-fabric-20.0.12.jar",
+        "primary": true,
+        "size": 585817,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  },
+  {
+    "minecraft": "26.1.2",
+    "project": "cloth-config",
+    "version": "26.1.154+fabric",
+    "id": "GFM8zh9J",
+    "files": [
+      {
+        "id": "d86QrVIu",
+        "hashes": {
+          "sha1": "832f9047bc4af13587709c74f7c37e1c8579d1eb",
+          "sha512": "8bfb75f2cac0a9910316c6a368a228c0f8f1261ac6f03dec5fba594e1619ac04334a3df4fb29778d61d0b8290d55949371a523d722b35501bf9a2902956d3b17"
+        },
+        "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/GFM8zh9J/cloth-config-26.1.154.jar",
+        "filename": "cloth-config-26.1.154.jar",
+        "primary": true,
+        "size": 1135373,
+        "file_type": null
+      }
+    ],
+    "dependencies": []
+  },
+  {
+    "minecraft": "26.1.2",
+    "project": "forge-config-api-port",
+    "version": "26.1.5",
+    "id": "jUe0ucoE",
+    "files": [
+      {
+        "id": "d3snx75m",
+        "hashes": {
+          "sha1": "82e4deaa210b75d3b51a268769ad24cc85796235",
+          "sha512": "44951fd147de9282c7a483eec0863e0838e98f68579b4d5852e4aaf038b82f03558c9dfd05fa3a4e5aa60ce5ede15cbbac59d4527d379494619804740f9a184f"
+        },
+        "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/jUe0ucoE/ForgeConfigAPIPort-v26.1.5-mc26.1.x-Fabric.jar",
+        "filename": "ForgeConfigAPIPort-v26.1.5-mc26.1.x-Fabric.jar",
+        "primary": true,
+        "size": 609711,
+        "file_type": null
+      }
+    ],
+    "dependencies": [
+      {
+        "version_id": null,
+        "project_id": "mOgUt4GM",
+        "file_name": null,
+        "dependency_type": "optional"
+      },
+      {
+        "version_id": null,
+        "project_id": "P7dR8mSH",
+        "file_name": null,
+        "dependency_type": "required"
+      }
+    ]
+  }
+]

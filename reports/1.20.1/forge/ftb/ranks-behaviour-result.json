@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "version": "1.20.1",
+  "checks": [
+    "numeric rank nodes override configuration fallback",
+    "exact count and inclusive volume limits permit creation",
+    "count limit enforced independently",
+    "volume limit enforced independently",
+    "failed resize preserves charged usage",
+    "rank downgrade preserves region and permits volume reduction",
+    "zero rank limits reject increases",
+    "deletion permitted while over quota",
+    "fractional provider value fails closed",
+    "missing nodes use configured fallback",
+    "explicit unlimited rank values",
+    "live rank membership addition changes limits",
+    "live rank membership removal changes limits"
+  ],
+  "manualClient": false
+}
