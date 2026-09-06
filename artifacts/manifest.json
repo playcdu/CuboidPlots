@@ -1,0 +1,64 @@
+{
+  "artifacts": [
+    {
+      "file": "artifacts/1.20.1/fabric/cuboidplots-1.20.1-fabric-0.1.0.jar",
+      "minecraft": "1.20.1",
+      "loader": "fabric",
+      "sha256": "d48881cb7ddba91534f94f0dd37764386fa5970b065882ba818b0c8a45309022",
+      "sourceCommit": "a6d6be8793df5cff578915afa9a3306632bc53ce",
+      "java": 17,
+      "bundled": [
+        "portable core (Java 8)",
+        "MixinExtras 0.4.1"
+      ],
+      "verification": {
+        "ftb": {
+          "testHostSha256": "7b69b86d119762e1ee27f1e9f0e4af57c18ee69fe86d31d373a21101acf05d74",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "manualClient": "not verified",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed"
+        },
+        "opac": {
+          "testHostSha256": "7b69b86d119762e1ee27f1e9f0e4af57c18ee69fe86d31d373a21101acf05d74",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "manualClient": "not verified",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed"
+        }
+      }
+    },
+    {
+      "file": "artifacts/1.20.1/forge/cuboidplots-1.20.1-forge-0.1.0.jar",
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "sha256": "86883981a787a1f707f89d88576707adbf20683b1e2dd89d0412acdf8d973876",
+      "sourceCommit": "a6d6be8793df5cff578915afa9a3306632bc53ce",
+      "java": 17,
+      "bundled": [
+        "portable core (Java 8)",
+        "MixinExtras 0.4.1"
+      ],
+      "verification": {
+        "ftb": {
+          "testHostSha256": "756bcab67cd28c9f9b1a14c6f525d59452b6236abd71cca1d5d84ddec1716665",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "manualClient": "not verified",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed"
+        },
+        "opac": {
+          "testHostSha256": "756bcab67cd28c9f9b1a14c6f525d59452b6236abd71cca1d5d84ddec1716665",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "manualClient": "not verified",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed"
+        }
+      }
+    }
+  ]
+}

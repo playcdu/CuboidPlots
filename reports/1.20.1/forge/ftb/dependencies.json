@@ -1,0 +1,32 @@
+[
+  {
+    "file": "architectury-9.2.14-forge.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+    "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+  },
+  {
+    "file": "cloth-config-11.1.136-forge.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+    "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+  },
+  {
+    "file": "ftb-chunks-forge-2001.3.8.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/2001.3.8/ftb-chunks-forge-2001.3.8.jar",
+    "sha256": "783f7aa42089b6f72500801284796f7cc8eb641ecddcf76f65bf586c017efb02"
+  },
+  {
+    "file": "ftb-teams-forge-2001.3.2.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/2001.3.2/ftb-teams-forge-2001.3.2.jar",
+    "sha256": "b1cb4d82ea9f137a87e12a7aaf3329619294b56f7d70337dfd557a76e10b6e07"
+  },
+  {
+    "file": "ftb-library-forge-2001.2.13.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/2001.2.13/ftb-library-forge-2001.2.13.jar",
+    "sha256": "41810281b65336265cae2c88412022d02f2f0a3f28c66a06173d86f98acf14a7"
+  },
+  {
+    "file": "ftb-ranks-forge-2001.1.7.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/2001.1.7/ftb-ranks-forge-2001.1.7.jar",
+    "sha256": "ec654cb94b3be8217da91f114667d7b0170c7be2ed533ac7e4faa337d1f5b872"
+  }
+]

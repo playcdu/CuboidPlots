@@ -1,0 +1,217 @@
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+[03:25:09] [main/INFO]: Loading Minecraft 1.20.1 with Fabric Loader 0.16.14
+[03:25:09] [main/INFO]: Loading 51 mods:
+	- architectury 9.2.14
+	- cloth-config 11.1.136
+	   \-- cloth-basic-math 0.6.1
+	- cuboidplots 0.1.0
+	   |-- dev_cuboidplots_core 0.1.0
+	   \-- mixinextras 0.4.1
+	- fabric-api 0.92.6+1.20.1
+	   |-- fabric-api-base 0.4.32+1802ada577
+	   |-- fabric-api-lookup-api-v1 1.6.37+1802ada577
+	   |-- fabric-biome-api-v1 13.0.14+1802ada577
+	   |-- fabric-block-api-v1 1.0.12+1802ada577
+	   |-- fabric-block-view-api-v2 1.0.3+924f046a77
+	   |-- fabric-blockrenderlayer-v1 1.1.42+1802ada577
+	   |-- fabric-client-tags-api-v1 1.1.3+1802ada577
+	   |-- fabric-command-api-v1 1.2.35+f71b366f77
+	   |-- fabric-command-api-v2 2.2.14+1802ada577
+	   |-- fabric-commands-v0 0.2.52+df3654b377
+	   |-- fabric-containers-v0 0.1.67+df3654b377
+	   |-- fabric-content-registries-v0 4.0.13+1802ada577
+	   |-- fabric-convention-tags-v1 1.5.6+1802ada577
+	   |-- fabric-crash-report-info-v1 0.2.20+1802ada577
+	   |-- fabric-data-attachment-api-v1 1.0.2+de0fd6d177
+	   |-- fabric-data-generation-api-v1 12.3.7+1802ada577
+	   |-- fabric-dimensions-v1 2.1.55+1802ada577
+	   |-- fabric-entity-events-v1 1.6.1+1c78457f77
+	   |-- fabric-events-interaction-v0 0.6.5+13a40c6677
+	   |-- fabric-events-lifecycle-v0 0.2.64+df3654b377
+	   |-- fabric-game-rule-api-v1 1.0.41+1802ada577
+	   |-- fabric-item-api-v1 2.1.29+1802ada577
+	   |-- fabric-item-group-api-v1 4.0.14+1802ada577
+	   |-- fabric-key-binding-api-v1 1.0.38+1802ada577
+	   |-- fabric-keybindings-v0 0.2.36+df3654b377
+	   |-- fabric-lifecycle-events-v1 2.2.23+1802ada577
+	   |-- fabric-loot-api-v2 1.2.3+1802ada577
+	   |-- fabric-loot-tables-v1 1.1.47+9e7660c677
+	   |-- fabric-message-api-v1 5.1.10+1802ada577
+	   |-- fabric-mining-level-api-v1 2.1.52+1802ada577
+	   |-- fabric-model-loading-api-v1 1.0.4+1802ada577
+	   |-- fabric-models-v0 0.4.3+9386d8a777
+	   |-- fabric-networking-api-v1 1.3.14+a158aa0477
+	   |-- fabric-networking-v0 0.3.54+df3654b377
+	   |-- fabric-object-builder-api-v1 11.1.5+e35120df77
+	   |-- fabric-particles-v1 1.1.3+1802ada577
+	   |-- fabric-recipe-api-v1 1.0.24+1802ada577
+	   |-- fabric-registry-sync-v0 2.3.6+1802ada577
+	   |-- fabric-renderer-api-v1 3.2.2+1802ada577
+	   |-- fabric-renderer-indigo 1.5.3+85287f9f77
+	   |-- fabric-renderer-registries-v1 3.2.47+df3654b377
+	   |-- fabric-rendering-data-attachment-v1 0.3.39+92a0d36777
+	   |-- fabric-rendering-fluids-v1 3.0.29+1802ada577
+	   |-- fabric-rendering-v0 1.1.50+df3654b377
+	   |-- fabric-rendering-v1 3.0.9+1802ada577
+	   |-- fabric-resource-conditions-api-v1 2.3.9+1802ada577
+	   |-- fabric-resource-loader-v0 0.11.12+fb82e9d777
+	   |-- fabric-screen-api-v1 2.0.9+1802ada577
+	   |-- fabric-screen-handler-api-v1 1.3.33+1802ada577
+	   |-- fabric-sound-api-v1 1.0.14+1802ada577
+	   |-- fabric-transfer-api-v1 3.3.6+8dd72ea377
+	   \-- fabric-transitive-access-wideners-v1 4.3.2+1802ada577
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- forgeconfigapiport 8.0.3
+	- java 17
+	- minecraft 1.20.1
+	- openpartiesandclaims 0.30.3
+[03:25:09] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.20.1/fabric/opac/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:25:17] [main/INFO]: Compatibility level set to JAVA_16
+[03:25:17] [main/INFO]: Compatibility level set to JAVA_17
+[03:25:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:25:20] [main/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:25:20] [main/WARN]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:25:20] [main/WARN]: COM exception querying Win32_VideoController, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:25:20] [main/WARN]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:25:26] [main/INFO]: Loading Open Parties and Claims!
+[03:25:26] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:25:28] [main/INFO]: Loaded 7 recipes
+[03:25:28] [main/INFO]: Loaded 1271 advancements
+[03:25:29] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.090 ms
+[03:25:30] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[03:25:30] [Server thread/INFO]: Loading properties
+[03:25:30] [Server thread/INFO]: Default game type: SURVIVAL
+[03:25:30] [Server thread/INFO]: Generating keypair
+[03:25:30] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25576
+[03:25:30] [Server thread/INFO]: Using default channel type
+[03:25:30] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:25:30] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:25:30] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:25:30] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:25:30] [Server thread/INFO]: Preparing level "world"
+[03:25:30] [Server thread/INFO]: Initializing Open Parties and Claims for the server...
+[03:25:30] [Server thread/INFO]: Loading server info!
+[03:25:30] [Server thread/INFO]: Loading player configs...
+[03:25:33] [Server thread/INFO]: Loaded player configs!
+[03:25:33] [Server thread/INFO]: Loading parties...
+[03:25:33] [Server thread/INFO]: Loaded parties!
+[03:25:33] [Server thread/INFO]: Fixing party inconsistencies...
+[03:25:34] [Server thread/INFO]: Registered party system for OPAC: default
+[03:25:34] [Server thread/WARN]: The configured primary party system "argonauts_guilds" isn't registered!
+[03:25:34] [Server thread/INFO]: Configured OPAC to use the following party system as primary: default
+[03:25:34] [Server thread/INFO]: Loading claims...
+[03:25:34] [Server thread/INFO]: Loaded claims in 9ms
+[03:25:34] [Server thread/WARN]: The configured permission system "prometheus" isn't registered!
+[03:25:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:25:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[03:25:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[03:25:35] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[03:25:35] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[03:25:36] [Worker-Main-5/INFO]: Preparing spawn area: 83%
+[03:25:36] [Server thread/INFO]: Time elapsed: 2112 ms
+[03:25:36] [Server thread/INFO]: Done (5.467s)! For help, type "help"
+[03:25:36] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Ready: parent=openpartiesandclaims, limits=config
+[03:25:36] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS two ordinary non-operator identities
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS parent baseline denies untrusted player without action scope
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS cuboid exception overrides real parent denial
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS standing inside does not grant target outside
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS standing outside can act on authorized target
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual game mode destroys authorized block
+[03:25:39] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual game mode leaves denied outside block intact
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS revocation restores real parent denial
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS two same-chunk, stacked, and four-chunk cuboids coexist
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual placement allowed independently of breaking
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS place grant does not permit actual breaking
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS break grant does not permit actual placement
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS bed second block beyond boundary refuses exception
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS container-only grant opens actual chest in vertically separate cuboid
+[03:25:40] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS other player cannot open same chest
+[03:25:41] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS parent denies ungranted door use
+[03:25:41] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS door-only grant opens actual two-block door
+[03:25:41] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS door grant does not permit switch use
+[03:25:42] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS switch-only exception powers actual isolated lever
+[03:25:42] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS switch grant does not permit other block interactions
+[03:25:42] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS other-block exception changes actual note block
+[03:25:42] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS other-block grant does not permit item-on-block use
+[03:25:43] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS item-on-block exception carves actual pumpkin
+[03:25:43] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS parent denies ungranted entity interaction
+[03:25:43] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS entity interaction traverses parent protection with bounded target
+[03:25:43] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS entity interaction grant does not permit damage
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS entity damage traverses parent protection independently
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS item-in-air scope has no implicit region grant
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS explicit item-in-air grant uses eye position for bounded food use
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS unbounded bucket effects receive no region exception
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS surveyor is a marked vanilla stick
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS stick clicks set inclusive corners and invoke particle preview
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS selection leaves target blocks intact
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS server opens vanilla 54-slot chest menu plus player inventory
+[03:25:44] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS menu shift-click cannot take decorative items
+[03:25:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:25:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:25:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:25:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:25:47] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[03:25:48] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS owner places tracked recovery chest through game mode
+[03:25:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:25:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:25:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:25:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:25:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:25:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:25:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:25:50] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Reserved 2 return boxes for 00000000-0000-0001-0000-000000000002
+[03:25:50] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS deletion removes tracked placed block
+[03:25:50] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS deletion preserves untracked preexisting terrain
+[03:25:50] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS inventory contents, block loot and dropped items packed across multiple boxes
+[03:25:50] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS returns reserved for assigned owner, not parent owner
+[03:25:51] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual End parent claim has independent UUID permissions at identical coordinates
+[03:25:51] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS End cuboid grant does not depend on overworld coordinates
+[03:25:52] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual break allowed in covered chunk 1,0
+[03:25:52] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual break allowed in covered chunk 1,1
+[03:25:52] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual break allowed in covered chunk 2,0
+[03:25:52] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual break allowed in covered chunk 2,1
+[03:25:52] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS actual parent exception works at a negative chunk boundary
+[03:25:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:25:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:25:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:25:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:25:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:25:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:25:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:25:54] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[03:25:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:25:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:25:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:25:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:25:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:25:55] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:25:55] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:25:56] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Reserved 1 return boxes for 00000000-0000-0001-0000-000000000002
+[03:25:56] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS direct parent ownership transfer suspends region
+[03:25:56] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS parent ownership transfer reserves old assigned owner's items
+[03:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:25:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:25:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:25:58] [Server thread/INFO]: [STDOUT]: [CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[03:25:59] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] PASS real parent unclaim suspends stale cuboid grants
+[03:25:59] [Server thread/INFO]: [STDOUT]: [CuboidPlots test] Test run finished, stopping server
+[03:25:59] [Server thread/INFO]: Stopping IO worker...
+[03:26:00] [Server thread/INFO]: Stopped IO worker!
+[03:26:00] [Server thread/INFO]: Stopping server
+[03:26:00] [Server thread/INFO]: Saving players
+[03:26:00] [Server thread/INFO]: Saving worlds
+[03:26:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:26:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:26:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:26:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

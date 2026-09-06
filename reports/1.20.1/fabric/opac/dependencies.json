@@ -1,0 +1,32 @@
+[
+  {
+    "file": "fabric-api-0.92.6+1.20.1.jar",
+    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/UapVHwiP/fabric-api-0.92.6%2B1.20.1.jar",
+    "sha256": "0ece50476da3692111ab04b75945c5458e70d98cd069eefc044ab3e57977deeb"
+  },
+  {
+    "file": "architectury-9.2.14-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/WbL7MStR/architectury-9.2.14-fabric.jar",
+    "sha256": "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321"
+  },
+  {
+    "file": "cloth-config-11.1.136-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/2xQdCMyG/cloth-config-11.1.136-fabric.jar",
+    "sha256": "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa"
+  },
+  {
+    "file": "open-parties-and-claims-fabric-1.20.1-0.30.3.jar",
+    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/WNhb6Zgb/open-parties-and-claims-fabric-1.20.1-0.30.3.jar",
+    "sha256": "899dfa0a73e8c8bdca596bb47261c0cdf7d0973d2dbf8ba49ea9108979341669"
+  },
+  {
+    "file": "ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+    "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/HvR3IdRE/ForgeConfigAPIPort-v8.0.3-1.20.1-Fabric.jar",
+    "sha256": "337a8f6c5ba48ef3b3da828f4f6a75d0552ba33f48ce97d3195befdb570e427a"
+  },
+  {
+    "file": "fabric-server-launch.jar",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.14/1.0.3/server/jar",
+    "sha256": "8f34ac4ebd5749bad6e60b0068f063783c9b354b9e8a44be85cf34e8588fa4eb"
+  }
+]

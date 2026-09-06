@@ -1,0 +1,17 @@
+[
+  {
+    "file": "architectury-9.2.14-forge.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+    "sha256": "218b471d0b8a1f6cda14cfc1beb9eeb0df54304500acc6c5613d9b88ec65d9af"
+  },
+  {
+    "file": "cloth-config-11.1.136-forge.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+    "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+  },
+  {
+    "file": "open-parties-and-claims-forge-1.20.1-0.30.3.jar",
+    "url": "https://cdn.modrinth.com/data/gF3BGWvG/versions/KlMaZyyE/open-parties-and-claims-forge-1.20.1-0.30.3.jar",
+    "sha256": "86e91ddb293025774d7229d44df8ad18389a020d1cad193f428027058c49f61c"
+  }
+]

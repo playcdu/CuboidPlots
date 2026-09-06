@@ -11,7 +11,7 @@ const clients=[];
 const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function waitFor(predicate,label){
   const end=Date.now()+15000;
-  while(!predicate()){if(Date.now()>end)throw new Error('Timed out: '+label);await delay(50);}
+  while(!predicate()){for(const client of clients)if(client.failure)throw client.failure;if(Date.now()>end)throw new Error('Timed out: '+label);await delay(50);}
 }
 function connect(name){
   const client=protocol.createClient({host:'127.0.0.1',port,username:name,version:'1.20.1',auth:'offline'});
@@ -29,7 +29,9 @@ function command(client,text){
   client.write('chat_command',{command:text,timestamp:BigInt(Date.now()),salt:0n,argumentSignatures:[],messageCount:0,acknowledged:Buffer.alloc(3)});
 }
 (async()=>{
-  const observer=connect('CuboidWatch'),selector=connect('CuboidSurvey');
+  const observer=connect('CuboidWatch');
+  await waitFor(()=>observer.position,'observer finishes vanilla login');
+  const selector=connect('CuboidSurvey');
   await waitFor(()=>observer.position&&selector.position,'two clients finish vanilla login');
   await delay(800);
   command(selector,'cuboid tool');

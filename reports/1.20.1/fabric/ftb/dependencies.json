@@ -1,0 +1,42 @@
+[
+  {
+    "file": "fabric-api-0.92.6+1.20.1.jar",
+    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/UapVHwiP/fabric-api-0.92.6%2B1.20.1.jar",
+    "sha256": "0ece50476da3692111ab04b75945c5458e70d98cd069eefc044ab3e57977deeb"
+  },
+  {
+    "file": "architectury-9.2.14-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/WbL7MStR/architectury-9.2.14-fabric.jar",
+    "sha256": "bd7a7032bedb2ff96c6991a846a44c857336a51442a105f5859017e8ba9d1321"
+  },
+  {
+    "file": "cloth-config-11.1.136-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/2xQdCMyG/cloth-config-11.1.136-fabric.jar",
+    "sha256": "844f49c339c8f3144e167ab21b7d0059f0d571054e26285a0749348da25c49fa"
+  },
+  {
+    "file": "ftb-chunks-fabric-2001.3.8.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/2001.3.8/ftb-chunks-fabric-2001.3.8.jar",
+    "sha256": "f1a15d9e8bb71d9e69a51106ff1b58a8fe7621cb3f935a819f5a7419c029d2df"
+  },
+  {
+    "file": "ftb-teams-fabric-2001.3.2.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/2001.3.2/ftb-teams-fabric-2001.3.2.jar",
+    "sha256": "1d85a7b258997084c9831208310de34d2c3f95136d5414f70225456899c0913c"
+  },
+  {
+    "file": "ftb-library-fabric-2001.2.13.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/2001.2.13/ftb-library-fabric-2001.2.13.jar",
+    "sha256": "5329b85aa8cb719fffa769eb21ea39a8a1fba0b8ea1405d4b86c32de1edd4eb0"
+  },
+  {
+    "file": "ftb-ranks-fabric-2001.1.7.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/2001.1.7/ftb-ranks-fabric-2001.1.7.jar",
+    "sha256": "ba878499cd9d7d44d869daad78ba1eca275319fe61324b9ff311df983300b908"
+  },
+  {
+    "file": "fabric-server-launch.jar",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.14/1.0.3/server/jar",
+    "sha256": "8f34ac4ebd5749bad6e60b0068f063783c9b354b9e8a44be85cf34e8588fa4eb"
+  }
+]
