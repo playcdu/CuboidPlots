@@ -8,15 +8,18 @@ const delay=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 const client=protocol.createClient({host:'127.0.0.1',port:Number(portText),username:'CuboidRanks',version,auth:'offline'});
 client.on('error',error=>failure=error);
 client.on('disconnect',packet=>failure=new Error(JSON.stringify(packet)));
+client.on('kick_disconnect',packet=>failure=new Error(JSON.stringify(packet)));
 client.on('position',packet=>{position=packet;client.write('teleport_confirm',{teleportId:packet.teleportId});});
 client.on('system_chat',packet=>messages.push(packet.content));
 client.on('chat',packet=>messages.push(packet.message));
 async function until(predicate,label){const end=Date.now()+20000;while(!predicate()){if(failure)throw failure;if(Date.now()>end)throw new Error(label+'; messages='+JSON.stringify(messages));await delay(50);}}
 async function command(text,expected){
+  // Ordinary players retain vanilla spam protection. Pace commands at a human rate.
+  await delay(1100);
   const index=messages.length;
   if(version==='1.18.2')client.write('chat',{message:'/'+text});
   else client.write('chat_command',{command:text,timestamp:BigInt(Date.now()),salt:0n,argumentSignatures:[],messageCount:0,acknowledged:Buffer.alloc(3)});
-  if(expected)await until(()=>messages.slice(index).some(message=>String(message).includes(expected)),text+' expected '+expected);
+  if(expected)await until(()=>messages.slice(index).some(message=>(Array.isArray(expected)?expected:[expected]).some(value=>String(message).includes(value))),text+' expected '+expected);
   else await delay(300);
 }
 async function consoleCommand(text){console.log('CONSOLE '+text);await delay(800);}
@@ -39,7 +42,7 @@ function pass(label){checks.push(label);console.log('PASS '+label);}
     await until(()=>position.x< -150,'teleport to isolated test chunk');
     await command('ftbchunks claim');
     // Remove an interrupted previous probe before measuring this private fixture.
-    await command('cuboid delete ranks_probe');
+    await command('cuboid delete ranks_probe',['quota released','Region not found or inaccessible']);
     await ranks(1,8);await command('cuboid quota','Regions 0 / 1, blocks 0 / 8');pass('numeric rank nodes override configuration fallback');
     await selection(-159,120,-159,2,2,2);await command('cuboid create ranks_probe','Created ranks_probe');
     await command('cuboid quota','Regions 1 / 1, blocks 8 / 8');pass('exact count and inclusive volume limits permit creation');

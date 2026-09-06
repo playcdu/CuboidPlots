@@ -51,10 +51,12 @@ tasks.named('jarJar', Jar).configure { from sourceSets.portableCore.output; mani
 reobf { jarJar {} }
 tasks.named('jarJar').configure { finalizedBy 'reobfJarJar' }
 processResources {
+    inputs.property 'testHost', project.hasProperty('testHost')
     doLast {
         def configFile = file("$destinationDir/cuboidplots.mixins.json")
         def config = new groovy.json.JsonSlurper().parse(configFile)
         config.refmap = 'cuboidplots.refmap.json'
+        config.mixins.remove('integration.FtbTransferAccess')
         if (project.hasProperty('testHost')) config.mixins.add('integration.FtbTransferAccess')
         configFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(config))
     }
