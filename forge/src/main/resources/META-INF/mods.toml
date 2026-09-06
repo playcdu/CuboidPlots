@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="MIT"
 [[mods]]
 modId="cuboidplots"
-version="0.1.0"
+version="0.1.1"
 displayName="Cuboid Plots Reference"
 description='''Server-side cuboid exceptions inside parent claims.'''
 displayTest="IGNORE_SERVER_VERSION"
