@@ -32,7 +32,7 @@
       }
     },
     {
-      "file": "artifacts/1.18.2/forge/cuboidplots-1.18.2-forge-0.1.0.jar",
+      "file": "artifacts/superseded/1.18.2/forge/cuboidplots-1.18.2-forge-0.1.0.jar",
       "minecraft": "1.18.2",
       "loader": "forge",
       "sha256": "953bfd0d17ce393abe98c5ab5b85b3484a85a1766a2ad791b6f1dc57b73537b0",
@@ -59,6 +59,37 @@
           "productionStartup": "passed",
           "protocolClients": "6 checks passed",
           "manualClient": "not verified"
+        }
+      },
+      "status": "superseded",
+      "supersededBy": "artifacts/1.18.2/forge/cuboidplots-1.18.2-forge-0.1.1.jar"
+    },
+    {
+      "file": "artifacts/1.18.2/forge/cuboidplots-1.18.2-forge-0.1.1.jar",
+      "minecraft": "1.18.2",
+      "loader": "forge",
+      "version": "0.1.1",
+      "sha256": "5f6808b049ef6aa16ed13dec7cc65858a4c62cb9c6385ee5ae09ee335ca32699",
+      "sourceCommit": "a512ca82de05913a59bb5f485e79cdb4a5906a85",
+      "java": 17,
+      "bundled": [
+        "portable core (Java 8)",
+        "MixinExtras 0.4.1 with accepted runtime range [0.4.1,)"
+      ],
+      "verification": {
+        "ftb": {
+          "productionStartup": "passed with MixinExtras 0.5.4",
+          "protocolClients": "6 checks passed with MixinExtras 0.5.4",
+          "runtimeClasses": "byte-identical to tested 0.1.0; its 50 behaviour, 7 restart and FTB Ranks results retained as baseline evidence",
+          "manualClient": "not verified",
+          "fullUserModpack": "not available; reported dependency constraint reproduced by private fixture"
+        },
+        "opac": {
+          "productionStartup": "passed with MixinExtras 0.5.4",
+          "protocolClients": "6 checks passed with MixinExtras 0.5.4",
+          "runtimeClasses": "byte-identical to tested 0.1.0; its 50 behaviour, 7 restart and FTB Ranks results retained as baseline evidence",
+          "manualClient": "not verified",
+          "fullUserModpack": "not available; reported dependency constraint reproduced by private fixture"
         }
       }
     }

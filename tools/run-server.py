@@ -1,5 +1,6 @@
 """Run a private dedicated server, capture output, stop cleanly after tests or startup."""
-import argparse, pathlib, subprocess, threading, time
+import argparse, pathlib, subprocess, threading, time, sys
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 parser=argparse.ArgumentParser();parser.add_argument('parent',choices=['ftb','opac']);parser.add_argument('--mc',choices=['1.18.2','1.20.1'],default='1.20.1');parser.add_argument('--loader',choices=['fabric','forge'],default='fabric');parser.add_argument('--startup-only',action='store_true');args=parser.parse_args()
 directory=ROOT/f'.work/servers/{args.mc}/{args.loader}/{args.parent}'

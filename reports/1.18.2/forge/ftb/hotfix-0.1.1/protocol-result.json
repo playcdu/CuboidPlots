@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "version": "1.18.2",
+  "port": 25587,
+  "clients": "two unmodified-protocol non-operator clients",
+  "checks": [
+    "login without addon",
+    "surveyor command",
+    "54-slot chest menu",
+    "private particle delivery",
+    "no preview packets to observer",
+    "shift-click retains empty cursor"
+  ],
+  "previewPackets": 360,
+  "manualVisualVerification": false
+}
