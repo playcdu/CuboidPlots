@@ -1,0 +1,42 @@
+[
+  {
+    "file": "fabric-api-0.77.0+1.18.2.jar",
+    "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/qk28POfr/fabric-api-0.77.0%2B1.18.2.jar",
+    "sha256": "6f822fb5aa481b4a6c1cfb8612bbfecc62a58e69d2c792f61a0eafa580e75999"
+  },
+  {
+    "file": "architectury-4.12.94-fabric.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/ql0OowZw/architectury-4.12.94-fabric.jar",
+    "sha256": "c27cbe1469997024e8daf87c9d7aa21785e69a3feffa59c48d0f9b4d5e58afd4"
+  },
+  {
+    "file": "cloth-config-fabric-6.5.116.jar",
+    "url": "https://maven.shedaniel.me/me/shedaniel/cloth/cloth-config-fabric/6.5.116/cloth-config-fabric-6.5.116.jar",
+    "sha256": "206101c332ca76767e2a99c555a65147153b46c5c7a4b43555c04746e7ff2b68"
+  },
+  {
+    "file": "ftb-chunks-fabric-1802.3.19-build.362.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-fabric/1802.3.19-build.362/ftb-chunks-fabric-1802.3.19-build.362.jar",
+    "sha256": "8091151262f6d7b30d5734837c2daedb4c1dc8910d2398d47b6e061a22f9db00"
+  },
+  {
+    "file": "ftb-teams-fabric-1802.2.11-build.152.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-fabric/1802.2.11-build.152/ftb-teams-fabric-1802.2.11-build.152.jar",
+    "sha256": "d3d9d83f391ac16b25f528a464d05e1fca96d1f286a0107e932c0de21a5c7b24"
+  },
+  {
+    "file": "ftb-library-fabric-1802.3.12-build.726.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-fabric/1802.3.12-build.726/ftb-library-fabric-1802.3.12-build.726.jar",
+    "sha256": "c661647184eadbcf44a5b70ca4cb85e72be2b71f8119ae2577768afc1fdda522"
+  },
+  {
+    "file": "ftb-ranks-fabric-1802.1.11-build.71.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-fabric/1802.1.11-build.71/ftb-ranks-fabric-1802.1.11-build.71.jar",
+    "sha256": "bcc593d043f67293997a2be11b5395afda10895dbf3cac9c56a30b343a3c40b4"
+  },
+  {
+    "file": "fabric-server-launch.jar",
+    "url": "https://meta.fabricmc.net/v2/versions/loader/1.18.2/0.16.14/1.0.3/server/jar",
+    "sha256": "00bb5ba31240969b57f755abbbc92a0d296332083e1c51be7db52e919bf4c1ce"
+  }
+]

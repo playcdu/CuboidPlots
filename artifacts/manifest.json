@@ -1,0 +1,66 @@
+{
+  "artifacts": [
+    {
+      "file": "artifacts/1.18.2/fabric/cuboidplots-1.18.2-fabric-0.1.0.jar",
+      "minecraft": "1.18.2",
+      "loader": "fabric",
+      "sha256": "95f4f6a8341894ac16c64a17c1a02946400585bd3d4d0fea06e4696e1775c678",
+      "sourceCommit": "bce370f2f957c0d87786607e6b3fdfbea781bc3b",
+      "java": 17,
+      "bundled": [
+        "portable core (Java 8)",
+        "MixinExtras 0.4.1"
+      ],
+      "verification": {
+        "ftb": {
+          "testHostSha256": "b13bc9f39405c0661773239ae1941fdbdad6060199959682f758a49503ddc5cd",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed",
+          "manualClient": "not verified",
+          "ftbRanks": "13 live checks and 3 restart checks passed"
+        },
+        "opac": {
+          "testHostSha256": "b13bc9f39405c0661773239ae1941fdbdad6060199959682f758a49503ddc5cd",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed",
+          "manualClient": "not verified"
+        }
+      }
+    },
+    {
+      "file": "artifacts/1.18.2/forge/cuboidplots-1.18.2-forge-0.1.0.jar",
+      "minecraft": "1.18.2",
+      "loader": "forge",
+      "sha256": "953bfd0d17ce393abe98c5ab5b85b3484a85a1766a2ad791b6f1dc57b73537b0",
+      "sourceCommit": "bce370f2f957c0d87786607e6b3fdfbea781bc3b",
+      "java": 17,
+      "bundled": [
+        "portable core (Java 8)",
+        "MixinExtras 0.4.1"
+      ],
+      "verification": {
+        "ftb": {
+          "testHostSha256": "54091d0c9b829e2cbc9cead67e2d2c85c152355cd9711003973f34b87b076425",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed",
+          "manualClient": "not verified",
+          "ftbRanks": "13 live checks and 3 restart checks passed"
+        },
+        "opac": {
+          "testHostSha256": "54091d0c9b829e2cbc9cead67e2d2c85c152355cd9711003973f34b87b076425",
+          "behaviour": "50 assertions passed",
+          "restart": "7 assertions passed",
+          "productionStartup": "passed",
+          "protocolClients": "6 checks passed",
+          "manualClient": "not verified"
+        }
+      }
+    }
+  ]
+}

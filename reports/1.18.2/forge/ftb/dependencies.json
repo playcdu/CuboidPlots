@@ -1,0 +1,32 @@
+[
+  {
+    "file": "architectury-4.12.94-forge.jar",
+    "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/3ChyUkZQ/architectury-4.12.94-forge.jar",
+    "sha256": "e5fee3917f1abd665a3a4402358d9e65cd988964c1b099a522baa22056234397"
+  },
+  {
+    "file": "cloth-config-forge-6.5.116.jar",
+    "url": "https://maven.shedaniel.me/me/shedaniel/cloth/cloth-config-forge/6.5.116/cloth-config-forge-6.5.116.jar",
+    "sha256": "e66a40aff1d5b4e6ae97045497733a9fe470d6be9ff78529368c0414c54e9d60"
+  },
+  {
+    "file": "ftb-chunks-forge-1802.3.19-build.362.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-chunks-forge/1802.3.19-build.362/ftb-chunks-forge-1802.3.19-build.362.jar",
+    "sha256": "4201cc6077273c83d8d49396b5010aa66927f8978509a5f0b1c209c0568f16b7"
+  },
+  {
+    "file": "ftb-teams-forge-1802.2.11-build.152.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-teams-forge/1802.2.11-build.152/ftb-teams-forge-1802.2.11-build.152.jar",
+    "sha256": "bedc3088ca4bf4d2a0eae559b2915105c866e038661e333f3933cfcca5af6410"
+  },
+  {
+    "file": "ftb-library-forge-1802.3.12-build.726.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-library-forge/1802.3.12-build.726/ftb-library-forge-1802.3.12-build.726.jar",
+    "sha256": "a320e9bbb0c1e620a61b5db6365a29bb3124d099cced7c97799ea88abed32b92"
+  },
+  {
+    "file": "ftb-ranks-forge-1802.1.11-build.71.jar",
+    "url": "https://maven.ftb.dev/releases/dev/ftb/mods/ftb-ranks-forge/1802.1.11-build.71/ftb-ranks-forge-1802.1.11-build.71.jar",
+    "sha256": "703d08cac8cb6fc61f867227901c2a9dd59e3feaaaf384e315379fa5c65796df"
+  }
+]
