@@ -10,14 +10,26 @@ import net.minecraftforge.fml.common.Mod;
 
 @Mod("cuboidplots")
 public final class CuboidPlotsForge {
-    public CuboidPlotsForge(){
-        MinecraftForge.EVENT_BUS.addListener(this::commands);
-        MinecraftForge.EVENT_BUS.addListener(this::started);
-        MinecraftForge.EVENT_BUS.addListener(this::stopped);
-        MinecraftForge.EVENT_BUS.addListener(this::tick);
-    }
-    private void commands(RegisterCommandsEvent event){AddonCommands.register(event.getDispatcher());}
-    private void started(ServerStartedEvent event){AddonRuntime.start(event.getServer(),id->ModList.get().isLoaded(id));}
-    private void stopped(ServerStoppedEvent event){AddonRuntime.stop();}
-    private void tick(TickEvent.ServerTickEvent event){if(event.phase==TickEvent.Phase.END)SelectionTool.tick(event.getServer());}
+  public CuboidPlotsForge() {
+    MinecraftForge.EVENT_BUS.addListener(this::commands);
+    MinecraftForge.EVENT_BUS.addListener(this::started);
+    MinecraftForge.EVENT_BUS.addListener(this::stopped);
+    MinecraftForge.EVENT_BUS.addListener(this::tick);
+  }
+
+  private void commands(RegisterCommandsEvent event) {
+    AddonCommands.register(event.getDispatcher());
+  }
+
+  private void started(ServerStartedEvent event) {
+    AddonRuntime.start(event.getServer(), id -> ModList.get().isLoaded(id));
+  }
+
+  private void stopped(ServerStoppedEvent event) {
+    AddonRuntime.stop();
+  }
+
+  private void tick(TickEvent.ServerTickEvent event) {
+    if (event.phase == TickEvent.Phase.END) SelectionTool.tick(event.getServer());
+  }
 }

@@ -6,6 +6,9 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 
 @Mixin(PersistentEntitySectionManager.class)
 public interface RecoveryEntityLoading {
-    @Invoker("ensureChunkQueuedForLoad") void cuboidplots$requestLoad(long chunk);
-    @Invoker("processPendingLoads") void cuboidplots$acceptLoadedEntities();
+  @Invoker("ensureChunkQueuedForLoad")
+  void cuboidplots$requestLoad(long chunk);
+
+  @Invoker("processPendingLoads")
+  void cuboidplots$acceptLoadedEntities();
 }

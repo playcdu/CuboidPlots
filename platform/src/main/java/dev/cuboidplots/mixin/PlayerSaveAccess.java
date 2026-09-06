@@ -8,5 +8,6 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 /** Force the recipient inventory to disk before committing its recovery delivery receipt. */
 @Mixin(PlayerList.class)
 public interface PlayerSaveAccess {
-    @Invoker("save") void cuboidplots$savePlayer(ServerPlayer player);
+  @Invoker("save")
+  void cuboidplots$savePlayer(ServerPlayer player);
 }

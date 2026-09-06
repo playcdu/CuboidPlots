@@ -12,9 +12,14 @@ import org.spongepowered.asm.mixin.Mixin;
 
 @Mixin(ArmorStand.class)
 public abstract class ArmorStandInteractionMixin {
-    @WrapMethod(method="interactAt")
-    private InteractionResult cuboidplots$interactAt(Player player,Vec3 location,InteractionHand hand,Operation<InteractionResult> original) {
-        if(player instanceof ServerPlayer serverPlayer)try(ActionScope scope=ActionPlanner.entity(serverPlayer,(ArmorStand)(Object)this,false)){return original.call(player,location,hand);}
-        return original.call(player,location,hand);
-    }
+  @WrapMethod(method = "interactAt")
+  private InteractionResult cuboidplots$interactAt(
+      Player player, Vec3 location, InteractionHand hand, Operation<InteractionResult> original) {
+    if (player instanceof ServerPlayer serverPlayer)
+      try (ActionScope scope =
+          ActionPlanner.entity(serverPlayer, (ArmorStand) (Object) this, false)) {
+        return original.call(player, location, hand);
+      }
+    return original.call(player, location, hand);
+  }
 }

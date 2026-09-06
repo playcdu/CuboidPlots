@@ -9,5 +9,6 @@ import org.spongepowered.asm.mixin.gen.Accessor;
 /** Recovery must load persisted item entities as well as terrain before taking a snapshot. */
 @Mixin(ServerLevel.class)
 public interface RecoveryEntityAccess {
-    @Accessor("entityManager") PersistentEntitySectionManager<Entity> cuboidplots$entityManager();
+  @Accessor("entityManager")
+  PersistentEntitySectionManager<Entity> cuboidplots$entityManager();
 }
