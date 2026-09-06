@@ -6,6 +6,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.decoration.ArmorStand;
+import net.minecraft.world.entity.decoration.ItemFrame;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
@@ -91,7 +92,8 @@ public final class ActionPlanner {
         BlockPos min=BlockPos.containing(bounds.minX,bounds.minY,bounds.minZ), max=BlockPos.containing(Math.nextDown(bounds.maxX),Math.nextDown(bounds.maxY),Math.nextDown(bounds.maxZ));
         boolean small=bounds.getXsize()<=4 && bounds.getYsize()<=4 && bounds.getZsize()<=4;
         if(small) for(BlockPos p:BlockPos.betweenClosed(min,max)) effects.add(p.immutable());
-        boolean safe=small && target instanceof ArmorStand && player.getMainHandItem().isEmpty() && player.getOffhandItem().isEmpty() && !target.isPassenger() && !target.isVehicle();
+        boolean safe=small && (target instanceof ArmorStand || target instanceof ItemFrame) && player.getMainHandItem().isEmpty() && player.getOffhandItem().isEmpty() && !target.isPassenger() && !target.isVehicle()
+            && isolated(player.level(),effects,2);
         return new ActionScope(player,damage?Action.ENTITY_DAMAGE:Action.ENTITY_INTERACT,effects,Collections.singletonList(target.blockPosition()),safe,target);
     }
 }

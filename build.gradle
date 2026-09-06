@@ -2,4 +2,5 @@ allprojects {
     group = 'dev.cuboidplots'
     version = rootProject.mod_version
     repositories { mavenCentral() }
+    tasks.withType(JavaCompile).configureEach { options.incremental = false }
 }

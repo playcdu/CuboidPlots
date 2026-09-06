@@ -30,5 +30,13 @@ if (project.hasProperty('testHost')) { sourceSets.main.java.srcDir '../testhost/
 processResources {
     inputs.property 'version', project.version
     inputs.property 'testHost', project.hasProperty('testHost')
-    filesMatching('fabric.mod.json') { expand(version: project.version, test_entrypoint: project.hasProperty('testHost') ? ', "dev.cuboidplots.testhost.ServerAcceptance"' : '') }
+    filesMatching('fabric.mod.json') { expand(version: project.version) }
+    doLast {
+        if (project.hasProperty('testHost')) {
+            def metadataFile = file("$destinationDir/fabric.mod.json")
+            def metadata = new groovy.json.JsonSlurper().parse(metadataFile)
+            metadata.entrypoints.main.add('dev.cuboidplots.testhost.FabricAcceptance')
+            metadataFile.text = groovy.json.JsonOutput.prettyPrint(groovy.json.JsonOutput.toJson(metadata))
+        }
+    }
 }

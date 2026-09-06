@@ -35,11 +35,11 @@ public final class AddonRuntime {
             System.out.println("[CuboidPlots] Ready: parent=" + parentId + ", limits=" + (ranks ? "ftbranks" : "config"));
         } catch (Exception ex) { throw new IllegalStateException("CuboidPlots initialization failed closed", ex); }
     }
-    public static void stop() { regions = null; recovery = null; ActionScope.clear(); }
+    public static void stop() { regions = null; recovery = null; ActionScope.clear(); SelectionTool.clear(); }
     public static Position position(BlockPos pos) { return new Position(pos.getX(), pos.getY(), pos.getZ()); }
     public static void ownershipChanged(String dimension, int x, int z) {
         RegionService service = regions;
         if (service != null) try { service.ownershipChanged(dimension,x,z); }
-        catch (Exception ex) { System.err.println("[CuboidPlots] Failed to persist suspension; exceptions disabled: " + ex); }
+        catch (Exception ex) { throw new IllegalStateException("CuboidPlots could not finish item recovery or save suspension. Parent ownership change aborted.",ex); }
     }
 }

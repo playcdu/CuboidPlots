@@ -1,0 +1,170 @@
+[
+  {
+    "path": "1.16.5/common/ftb-chunks/dev/ftb/mods/ftbchunks/data/ClaimedChunkManager.java",
+    "sha256": "61522410ebb1c3fcfd8cf49c1d780277433780b97a8cf9bd36063a3ddb8ddad6"
+  },
+  {
+    "path": "1.16.5/common/ftb-ranks/dev/ftb/mods/ftbranks/api/FTBRanksAPI.java",
+    "sha256": "600df50a9ea1b5605e17f996a384449360d95455e2f74f75992eb0d409692280"
+  },
+  {
+    "path": "1.16.5/common/ftb-ranks/dev/ftb/mods/ftbranks/api/PermissionValue.java",
+    "sha256": "f503f6b8575af3061f22f5e8cf08159d7eefefeec764ba7163aa733fb1d47cea"
+  },
+  {
+    "path": "1.18.2/common/ftb-chunks/dev/ftb/mods/ftbchunks/data/ClaimedChunkManager.java",
+    "sha256": "3969397a36196d6552e98ab8302906fcce4f3eede95523399ea20577cd4ed644"
+  },
+  {
+    "path": "1.18.2/common/ftb-ranks/dev/ftb/mods/ftbranks/api/FTBRanksAPI.java",
+    "sha256": "600df50a9ea1b5605e17f996a384449360d95455e2f74f75992eb0d409692280"
+  },
+  {
+    "path": "1.18.2/common/ftb-ranks/dev/ftb/mods/ftbranks/api/PermissionValue.java",
+    "sha256": "f503f6b8575af3061f22f5e8cf08159d7eefefeec764ba7163aa733fb1d47cea"
+  },
+  {
+    "path": "1.18.2/common/ftb-teams/dev/ftb/mods/ftbteams/data/Team.java",
+    "sha256": "b73361d157e78daf6a54b813226651a0ad60677c10d3b3aee6c72665a7e225c5"
+  },
+  {
+    "path": "1.18.2/fabric/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "141c4c93a2dec8d33a359e1cd78613f2f30361b726529f1b567ff56d9f0d8337"
+  },
+  {
+    "path": "1.18.2/fabric/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "e3c0ac1c62a1e7b65d5483561825ce223fc6529626cf82fa6b5d43660b7b63c4"
+  },
+  {
+    "path": "1.18.2/forge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "141c4c93a2dec8d33a359e1cd78613f2f30361b726529f1b567ff56d9f0d8337"
+  },
+  {
+    "path": "1.18.2/forge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "e3c0ac1c62a1e7b65d5483561825ce223fc6529626cf82fa6b5d43660b7b63c4"
+  },
+  {
+    "path": "1.20.1/common/ftb-chunks/dev/ftb/mods/ftbchunks/api/ClaimedChunkManager.java",
+    "sha256": "3d2d35297002e1caacc559e359ead64b89b106dfd2815a107d8d8229e1a50782"
+  },
+  {
+    "path": "1.20.1/common/ftb-chunks/dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl.java",
+    "sha256": "ba97702fbee0c1d74e37b206ba6896af264b92e7b1ba9f993a6abd40a6aa320d"
+  },
+  {
+    "path": "1.20.1/common/ftb-ranks/dev/ftb/mods/ftbranks/api/FTBRanksAPI.java",
+    "sha256": "a811d23cfebac8c4a9c1a468d32dcc4eae7f54133f32a0d39705005efbe212ea"
+  },
+  {
+    "path": "1.20.1/common/ftb-ranks/dev/ftb/mods/ftbranks/api/PermissionValue.java",
+    "sha256": "847692c6755295604ee37a4df55282f0804e9a264122b62dbd4fd07bc4847491"
+  },
+  {
+    "path": "1.20.1/common/ftb-teams/dev/ftb/mods/ftbteams/api/Team.java",
+    "sha256": "7d788e9fdbffe01a9f96b16b21bc3a3efe82746899c90049652e3e722fb4b1d1"
+  },
+  {
+    "path": "1.20.1/fabric/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "542a2a17c0a483e06540ac08989c1c979ccc2c80b67dc9a87ac83d2d872c1e8f"
+  },
+  {
+    "path": "1.20.1/fabric/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "51cf306ae6557b50b415a5893ddabe4e417b6d9cd066faa9d9f4ff027f6e12cd"
+  },
+  {
+    "path": "1.20.1/forge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "542a2a17c0a483e06540ac08989c1c979ccc2c80b67dc9a87ac83d2d872c1e8f"
+  },
+  {
+    "path": "1.20.1/forge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "51cf306ae6557b50b415a5893ddabe4e417b6d9cd066faa9d9f4ff027f6e12cd"
+  },
+  {
+    "path": "1.21.1/common/ftb-chunks/dev/ftb/mods/ftbchunks/api/ClaimedChunkManager.java",
+    "sha256": "3d2d35297002e1caacc559e359ead64b89b106dfd2815a107d8d8229e1a50782"
+  },
+  {
+    "path": "1.21.1/common/ftb-chunks/dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl.java",
+    "sha256": "e2642402e26f420cb4c234d73d047f1a30b0b3f059dd70641938665708e5896f"
+  },
+  {
+    "path": "1.21.1/common/ftb-ranks/dev/ftb/mods/ftbranks/api/FTBRanksAPI.java",
+    "sha256": "a811d23cfebac8c4a9c1a468d32dcc4eae7f54133f32a0d39705005efbe212ea"
+  },
+  {
+    "path": "1.21.1/common/ftb-ranks/dev/ftb/mods/ftbranks/api/PermissionValue.java",
+    "sha256": "847692c6755295604ee37a4df55282f0804e9a264122b62dbd4fd07bc4847491"
+  },
+  {
+    "path": "1.21.1/common/ftb-teams/dev/ftb/mods/ftbteams/api/Team.java",
+    "sha256": "070d8da841b59c6186a79c92fe885f72a0f0797ac7b52707add3b62160f6ab40"
+  },
+  {
+    "path": "1.21.1/fabric/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "542a2a17c0a483e06540ac08989c1c979ccc2c80b67dc9a87ac83d2d872c1e8f"
+  },
+  {
+    "path": "1.21.1/fabric/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "decb416195b026d05965def386b683bc3de6c152c3d9c0622b13ef5ab7200ef0"
+  },
+  {
+    "path": "1.21.1/forge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "542a2a17c0a483e06540ac08989c1c979ccc2c80b67dc9a87ac83d2d872c1e8f"
+  },
+  {
+    "path": "1.21.1/forge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "decb416195b026d05965def386b683bc3de6c152c3d9c0622b13ef5ab7200ef0"
+  },
+  {
+    "path": "1.21.1/neoforge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "542a2a17c0a483e06540ac08989c1c979ccc2c80b67dc9a87ac83d2d872c1e8f"
+  },
+  {
+    "path": "1.21.1/neoforge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "decb416195b026d05965def386b683bc3de6c152c3d9c0622b13ef5ab7200ef0"
+  },
+  {
+    "path": "26.1.2/common/ftb-chunks/dev/ftb/mods/ftbchunks/api/ClaimedChunkManager.java",
+    "sha256": "ce6413c6b0c863ba406512312857e0179faf71b4416dd654276fb29709216e23"
+  },
+  {
+    "path": "26.1.2/common/ftb-chunks/dev/ftb/mods/ftbchunks/data/ClaimedChunkManagerImpl.java",
+    "sha256": "e26537d03259835b5340156726338788009842348bbcadf8389a493bea634bf0"
+  },
+  {
+    "path": "26.1.2/common/ftb-ranks/dev/ftb/mods/ftbranks/api/FTBRanksAPI.java",
+    "sha256": "39c6b7c806d4b3e941bbbd966d81781208f022a618271d83dc31d3038c696e65"
+  },
+  {
+    "path": "26.1.2/common/ftb-ranks/dev/ftb/mods/ftbranks/api/PermissionValue.java",
+    "sha256": "975ac3db2ab8fd5f99895426220cd5ea3c26bd2e8860554d43b14e727b9b5b93"
+  },
+  {
+    "path": "26.1.2/common/ftb-teams/dev/ftb/mods/ftbteams/api/Team.java",
+    "sha256": "c8229b3b4b22509eb1ed6c9442d9f20cdde8f232d6b0031d1479998dfd262c0a"
+  },
+  {
+    "path": "26.1.2/fabric/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "0887ffe97254cd7703c9e9d960aa3b7f94d4d5a86e5b1ec00203821a078e425b"
+  },
+  {
+    "path": "26.1.2/fabric/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "9466e5e5f4bb9ba1c595820fa97c520ee66474fe149bd709272bd8ac4c9bb3a6"
+  },
+  {
+    "path": "26.1.2/forge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "0887ffe97254cd7703c9e9d960aa3b7f94d4d5a86e5b1ec00203821a078e425b"
+  },
+  {
+    "path": "26.1.2/forge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "9466e5e5f4bb9ba1c595820fa97c520ee66474fe149bd709272bd8ac4c9bb3a6"
+  },
+  {
+    "path": "26.1.2/neoforge/opac/xaero/pac/common/server/claims/ServerClaimsManager.java",
+    "sha256": "0887ffe97254cd7703c9e9d960aa3b7f94d4d5a86e5b1ec00203821a078e425b"
+  },
+  {
+    "path": "26.1.2/neoforge/opac/xaero/pac/common/server/claims/protection/ChunkProtection.java",
+    "sha256": "9466e5e5f4bb9ba1c595820fa97c520ee66474fe149bd709272bd8ac4c9bb3a6"
+  }
+]

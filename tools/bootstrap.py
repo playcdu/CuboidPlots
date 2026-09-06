@@ -11,10 +11,8 @@ def fetch(task):
     if dest.exists(): return
     try:
         if name.startswith('jdk'):
-            major=name[3:]
-            meta=json.loads(get(f'https://api.adoptium.net/v3/assets/latest/{major}/hotspot?architecture=x64&image_type=jdk&os=windows'))[0]
-            package=meta['binary']['package']; url=package['link']; checksum=package['checksum']
-            (OUT/(name+'-lock.json')).write_text(json.dumps(meta,indent=2))
+            meta=json.loads((ROOT/'research/toolchains-lock.json').read_text())[name]
+            package=meta['package']; url=package['link']; checksum=package['checksum']
         else: checksum=get(url+'.sha256').decode().strip()
         data=get(url)
         assert hashlib.sha256(data).hexdigest()==checksum

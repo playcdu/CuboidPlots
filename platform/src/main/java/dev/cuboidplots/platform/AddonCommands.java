@@ -58,6 +58,7 @@ public final class AddonCommands {
         root.then(literal("menu").executes(context -> run(context,RegionMenu::open)));
         root.then(literal("help").executes(context -> run(context,player -> {
             tell(player,"/cuboid opens the management menu. pos1|pos2 [x y z], selection, create <name>, list, info <name>, resize <name>, delete <name>");
+            tell(player,"tool gives a surveyor's stick: left-click corner 1, right-click corner 2. preview draws a private outline for 30 seconds. returns collects your saved shulker boxes.");
             tell(player,"grant|revoke <region> <online-name-or-UUID> <action>, permissions <region>, owner <region> <player>, quota, diagnose <action> <x> <y> <z>");
             tell(player,"Actions: "+Arrays.toString(Action.values())+". Missing grants defer to the parent. /cuboid why shows the last protection probe.");
         })));
@@ -65,7 +66,7 @@ public final class AddonCommands {
             root.then(literal("pos"+number).executes(context -> run(context,player -> corner(player,number,player.blockPosition())))
                 .then(argument("position",BlockPosArgument.blockPos()).executes(context -> run(context,player -> corner(player,number,BlockPosArgument.getBlockPos(context,"position"))))));
         }
-        for(String command:Arrays.asList("selection","list","quota","why","returns"))root.then(literal(command).executes(context -> run(context,player -> execute(player,command,""))));
+        for(String command:Arrays.asList("selection","list","quota","why","returns","tool","preview"))root.then(literal(command).executes(context -> run(context,player -> execute(player,command,""))));
         for(String command:Arrays.asList("create","info","resize","delete","grant","revoke","permissions","owner","diagnose"))
             root.then(literal(command).then(argument("arguments",StringArgumentType.greedyString()).executes(context -> run(context,player -> execute(player,command,StringArgumentType.getString(context,"arguments"))))));
         dispatcher.register(root);
@@ -85,6 +86,8 @@ public final class AddonCommands {
             case "grant": case "revoke": require(args,3);service.permission(actor,admin,args[0],resolve(player,args[1]),Action.valueOf(args[2].toUpperCase(Locale.ROOT)),command.equals("grant"));tell(player,"Permission updated");break;
             case "diagnose": require(args,4);Decision decision=service.evaluate(actor,player.level().dimension().location().toString(),Action.valueOf(args[0].toUpperCase(Locale.ROOT)),Collections.singletonList(new Position(Integer.parseInt(args[1]),Integer.parseInt(args[2]),Integer.parseInt(args[3]))),true);tell(player,"Core position probe: "+decision.result+": "+decision.reason+". Actual actions also require a safely bounded footprint.");break;
             case "why": tell(player,ActionScope.lastReason(actor));break;
+            case "tool": SelectionTool.give(player);break;
+            case "preview": Selection selected=selection(player);SelectionTool.preview(player,selected.dimension,selected.bounds());break;
             case "returns": int delivered=AddonRuntime.recovery.collect(player);tell(player,"Collected "+delivered+" return boxes; "+AddonRuntime.recovery.available(actor)+" remain safely stored. Free inventory slots for more.");break;
             default: throw new IllegalArgumentException("Unknown command");
         }

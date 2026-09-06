@@ -132,18 +132,15 @@ public final class RegionService {
 
     /** Called on removal/reassignment, even if the same owner immediately reclaims the chunk. */
     public synchronized void ownershipChanged(String dimension, int chunkX, int chunkZ) throws IOException {
-        List<Region> changed = new ArrayList<>(); boolean dirty = false; IOException recoveryFailure = null;
-        for (Region region : regions) {
+        // Commit each successful recovery before moving on. A later failure aborts the parent
+        // mutation and leaves that region retryable without repeating completed recoveries.
+        for (Region region : new ArrayList<>(regions)) {
             if (!region.suspended && region.dimension.equals(dimension) && region.bounds.coversChunk(chunkX, chunkZ)) {
                 // The platform must invoke this before the parent's removal/reassignment takes effect.
-                try { lifecycle.beforeOwnershipRemoved(region, RegionLifecycle.Removal.PARENT_CHANGE, isCurrent(region)); }
-                catch (IOException ex) { recoveryFailure = ex; }
-                changed.add(region.suspend()); dirty = true;
+                lifecycle.beforeOwnershipRemoved(region, RegionLifecycle.Removal.PARENT_CHANGE, isCurrent(region));
+                replace(region.suspend());
             }
-            else changed.add(region);
         }
-        if (dirty) commit(changed);
-        if (recoveryFailure != null) throw recoveryFailure;
     }
     public synchronized void revalidateAll() throws IOException {
         List<Region> changed = new ArrayList<>(); boolean dirty = false;

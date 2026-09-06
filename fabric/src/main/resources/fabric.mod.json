@@ -5,7 +5,7 @@
   "name": "Cuboid Plots Reference",
   "description": "Server-side cuboid exceptions within parent claims. Reference implementation with a conservative action scope.",
   "environment": "server",
-  "entrypoints": {"main": ["dev.cuboidplots.fabric.CuboidPlotsFabric"${test_entrypoint}]},
+  "entrypoints": {"main": ["dev.cuboidplots.fabric.CuboidPlotsFabric"]},
   "mixins": ["cuboidplots.mixins.json"],
   "depends": {"fabricloader": ">=0.16.14", "minecraft": "1.20.1", "java": ">=17", "fabric-api": "*"},
   "license": "MIT"

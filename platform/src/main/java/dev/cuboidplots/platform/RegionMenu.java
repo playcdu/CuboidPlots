@@ -48,7 +48,7 @@ public final class RegionMenu extends ChestMenu {
         button(45,Items.ARROW,"Back to regions",ChatFormatting.YELLOW,()->{page="home";pageIndex=0;},"Your accessible cuboid regions");
         button(53,Items.BARRIER,"Close",ChatFormatting.RED,viewer::closeContainer);
         try {
-            switch(page){case "home":home();break;case "region":region();break;case "players":players();break;case "permissions":permissions();break;case "delete":deletion();break;default:page="home";home();}
+            switch(page){case "home":home();break;case "region":region();break;case "players":players();break;case "permissions":permissions();break;case "delete":deletion();break;case "assign":assignment();break;default:page="home";home();}
         } catch(Exception ex){button(22,Items.BARRIER,"Unavailable",ChatFormatting.RED,null,ex.getMessage()==null?ex.toString():ex.getMessage());}
     }
     private Region current(){return AddonCommands.service().inspect(viewer.getUUID(),AddonCommands.admin(viewer),selected);}
@@ -59,14 +59,14 @@ public final class RegionMenu extends ChestMenu {
             button(slot,region.suspended?Items.RED_CONCRETE:Items.GRASS_BLOCK,region.name,region.suspended?ChatFormatting.RED:ChatFormatting.GREEN,()->{selected=region.name;page="region";pageIndex=0;},
                 region.dimension,region.bounds.toString(),"Owner: "+name(region.assignedOwner),region.grants.size()+" players with grants",region.suspended?"Suspended: parent binding changed":"Click to manage this space");
         }
-        if(regions.isEmpty())button(22,Items.MAP,"Your first cuboid",ChatFormatting.GREEN,null,"Set two corners, then create a region.","The parent chunks must already be claimed.","Use /cuboid pos1 and /cuboid pos2", "or the corner buttons below.");
+        if(regions.isEmpty())button(22,Items.MAP,"Your first cuboid",ChatFormatting.GREEN,null,"Set two corners, then create a region.","The parent chunks must already be claimed.","Use /cuboid pos1 and /cuboid pos2", "or get the surveyor's stick below.");
         long[] used=service.usage(viewer.getUUID());
         String limitText;
         try{Limits limits=service.effectiveLimits(viewer.getUUID());limitText=AddonCommands.limit(limits.regions)+" regions / "+AddonCommands.limit(limits.volume)+" blocks";}
         catch(Exception ex){limitText="Provider unavailable: increases disabled";}
         button(49,Items.COMPASS,"Your allowance",ChatFormatting.GOLD,null,"Used: "+used[0]+" regions / "+used[1]+" blocks","Limits: "+limitText,"All inclusive blocks count, including air.","Grants from other players use no quota.");
-        button(46,Items.WOODEN_AXE,"Set corner 1 here",ChatFormatting.AQUA,()->{AddonCommands.corner(viewer,1,viewer.blockPosition());message="First corner set at your feet";},"Current dimension and block position", "Precise alternative: /cuboid pos1 x y z");
-        button(47,Items.IRON_AXE,"Set corner 2 here",ChatFormatting.AQUA,()->{AddonCommands.corner(viewer,2,viewer.blockPosition());message="Second corner set at your feet";},"Current dimension and block position", "Precise alternative: /cuboid pos2 x y z");
+        button(46,Items.STICK,"Get surveyor's stick",ChatFormatting.AQUA,()->{SelectionTool.give(viewer);viewer.closeContainer();},"Left-click a block: corner 1", "Right-click a block: corner 2", "Selection clicks never break or use blocks.");
+        button(47,Items.ENDER_EYE,"Preview selection",ChatFormatting.AQUA,()->{var selection=AddonCommands.selection(viewer);SelectionTool.preview(viewer,selection.dimension,selection.bounds());viewer.closeContainer();},"Private particle outline for 30 seconds", "Inclusive bounds include the whole edge blocks.");
         button(50,Items.LIME_CONCRETE,"Create from selection",ChatFormatting.GREEN,()->{Region region=AddonCommands.create(viewer,"plot_"+Long.toString(System.currentTimeMillis(),36));selected=region.name;page="region";message="Created. No action grants are added automatically.";},"Creates a uniquely named cuboid.","For a custom name: /cuboid create <name>","Ownership, overlap and quotas are checked.");
         String available;try{available=AddonRuntime.recovery.available(viewer.getUUID())+" boxes waiting";}catch(Exception ex){available="Recovery storage unavailable";}
         button(48,Items.PURPLE_SHULKER_BOX,"Collect returned items",ChatFormatting.LIGHT_PURPLE,()->{int collected=AddonRuntime.recovery.collect(viewer);message="Collected "+collected+" boxes. Remaining boxes stay reserved for you.";},available,"Only your assigned-owner returns are visible.","Full inventory? Make space and collect later.");
@@ -81,6 +81,7 @@ public final class RegionMenu extends ChestMenu {
         button(31,Items.GOLDEN_HELMET,"Assign cuboid owner",ChatFormatting.GOLD,()->{page="players";assigning=true;pageIndex=0;},"Parent claim managers only.","Returns stored items and tracked placed blocks", "to the previous assigned owner.","Delegates this cuboid's permission management.","Does not move quota charges or grant actions.");
         button(33,Items.SHEARS,"Resize from selection",ChatFormatting.YELLOW,()->{AddonCommands.resize(viewer,selected);message="Bounds updated";},"Parent claim managers only.","Both selection corners must be set.","Quota and overlap checks are atomic.");
         button(40,Items.TNT,"Delete region",ChatFormatting.RED,()->page="delete","Confirmation required.","Releases the creator's quota.","The parent chunks stay claimed.");
+        button(49,Items.ENDER_EYE,"Preview saved bounds",ChatFormatting.AQUA,()->{SelectionTool.preview(viewer,region.dimension,region.bounds);viewer.closeContainer();},"Private particle outline for 30 seconds", "Only visible in this region's dimension.");
     }
     private void players(){
         Region region=current();LinkedHashSet<UUID> ids=new LinkedHashSet<>(region.grants.keySet());
@@ -89,7 +90,7 @@ public final class RegionMenu extends ChestMenu {
         for(int i=pageIndex*28;i<Math.min(players.size(),pageIndex*28+28);i++){
             UUID id=players.get(i);
             button(contentSlot(i-pageIndex*28),Items.PLAYER_HEAD,name(id),ChatFormatting.AQUA,()->{
-                if(assigning){AddonCommands.service().assignOwner(viewer.getUUID(),AddonCommands.admin(viewer),selected,id);page="region";message="Assigned owner: "+name(id);}
+                if(assigning){recipient=id;page="assign";}
                 else{recipient=id;page="permissions";}
             },id.toString(),assigning?"Click to assign this cuboid":"Click to edit granular permissions",region.grants.getOrDefault(id,Collections.emptySet()).size()+" explicit grants");
         }
@@ -115,6 +116,12 @@ public final class RegionMenu extends ChestMenu {
         button(22,Items.PAPER,"Delete "+region.name+"?",ChatFormatting.YELLOW,null,"Returns stored items, drops and tracked blocks", "to "+name(region.assignedOwner)+" in shulker boxes.","Removes all cuboid grants permanently.","Releases "+region.bounds.volume()+" blocks of quota.","Parent chunks remain claimed.");
         button(30,Items.RED_CONCRETE,"Confirm deletion",ChatFormatting.RED,()->{AddonCommands.service().delete(viewer.getUUID(),AddonCommands.admin(viewer),selected);page="home";pageIndex=0;message="Region deleted. Parent protection applies.";});
         button(32,Items.LIME_CONCRETE,"Keep region",ChatFormatting.GREEN,()->page="region");
+    }
+    private void assignment(){
+        Region region=current();
+        button(22,Items.PAPER,"Assign to "+name(recipient)+"?",ChatFormatting.YELLOW,null,"Returns this cuboid's stored items, dropped items", "and tracked placed blocks to "+name(region.assignedOwner)+".","The previous owner's placed blocks are removed.","Creator quota and explicit grants remain unchanged.");
+        button(30,Items.GOLD_BLOCK,"Confirm assignment",ChatFormatting.GOLD,()->{AddonCommands.service().assignOwner(viewer.getUUID(),AddonCommands.admin(viewer),selected,recipient);page="region";message="Assigned owner: "+name(recipient);});
+        button(32,Items.LIME_CONCRETE,"Keep current owner",ChatFormatting.GREEN,()->page="region");
     }
     private static int contentSlot(int index){return 10+(index/7)*9+index%7;}
     private String name(UUID id){ServerPlayer player=viewer.server.getPlayerList().getPlayer(id);return player==null?id.toString():player.getGameProfile().getName();}

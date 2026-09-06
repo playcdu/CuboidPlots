@@ -77,6 +77,7 @@ public final class ItemRecovery implements RegionLifecycle {
             throw new IOException("Recovery needs review: parent binding already changed for "+region.name+". No new-owner blocks were touched.");
         }
         ServerLevel level=level(region.dimension);
+        for(int x=region.bounds.min.x>>4;x<=(region.bounds.max.x>>4);x++)for(int z=region.bounds.min.z>>4;z<=(region.bounds.max.z>>4);z++)loadEntities(level,new net.minecraft.world.level.ChunkPos(x,z));
         CompoundTag batch=new CompoundTag();UUID id=UUID.randomUUID();
         batch.putUUID("Id",id);batch.putUUID("Recipient",region.assignedOwner);batch.putUUID("RegionId",region.id);
         batch.putString("Region",region.name);batch.putString("Dimension",region.dimension);batch.putString("Reason",reason.name());batch.putString("State","PREPARED");batch.putInt("Delivered",0);
@@ -125,10 +126,10 @@ public final class ItemRecovery implements RegionLifecycle {
             ServerLevel level=level(batch.getString("Dimension"));ListTag sources=batch.getList("Sources",Tag.TAG_COMPOUND),blocks=batch.getList("Blocks",Tag.TAG_COMPOUND);
             // Validate every source before clearing any source. Interrupted empty sources are idempotent.
             for(int i=0;i<sources.size();i++){
-                CompoundTag source=sources.getCompound(i);BlockPos pos=BlockPos.of(source.getLong("Pos"));level.getChunkAt(pos);
+                CompoundTag source=sources.getCompound(i);BlockPos pos=BlockPos.of(source.getLong("Pos"));loadEntities(level,new net.minecraft.world.level.ChunkPos(pos));
                 if(source.getString("Kind").equals("container")){
                     BlockEntity entity=level.getBlockEntity(pos);
-                    if(entity instanceof Container container){if(!container.isEmpty()&&!inventory(container).equals(source.getList("Items",Tag.TAG_COMPOUND)))throw new IOException("Recovery journal conflict at "+pos);}
+                    if(entity instanceof Container container){if(!BuiltInRegistries.BLOCK.getKey(level.getBlockState(pos).getBlock()).toString().equals(source.getString("Block"))||!container.isEmpty()&&!inventory(container).equals(source.getList("Items",Tag.TAG_COMPOUND)))throw new IOException("Recovery journal conflict at "+pos);}
                     else if(!level.getBlockState(pos).isAir())throw new IOException("Recovery source block changed at "+pos);
                 }else{Entity entity=level.getEntity(source.getUUID("Entity"));if(entity instanceof ItemEntity item&&!item.getItem().save(new CompoundTag()).equals(source.getCompound("Item")))throw new IOException("Recovery item entity changed");}
             }
@@ -172,6 +173,19 @@ public final class ItemRecovery implements RegionLifecycle {
         player.containerMenu.broadcastChanges();return delivered;
     }
     private List<Path>batches()throws IOException{try(var files=Files.list(directory)){return files.filter(p->p.getFileName().toString().startsWith("batch-")).sorted().collect(java.util.stream.Collectors.toList());}}
+    private void loadEntities(ServerLevel level,net.minecraft.world.level.ChunkPos chunk)throws IOException{
+        level.getChunk(chunk.x,chunk.z);
+        var manager=((dev.cuboidplots.mixin.RecoveryEntityAccess)level).cuboidplots$entityManager();
+        var loading=(dev.cuboidplots.mixin.RecoveryEntityLoading)manager;
+        loading.cuboidplots$requestLoad(chunk.toLong());
+        long deadline=System.nanoTime()+java.util.concurrent.TimeUnit.SECONDS.toNanos(10);
+        while(!manager.areEntitiesLoaded(chunk.toLong())){
+            // Accept only the disk-loading inbox. Do not tick players or let sources change mid-transaction.
+            loading.cuboidplots$acceptLoadedEntities();
+            if(System.nanoTime()>deadline)throw new IOException("Timed out loading recovery entities in "+chunk+"; ownership was not changed");
+            java.util.concurrent.locks.LockSupport.parkNanos(1_000_000);
+        }
+    }
     private ServerLevel level(String dimension)throws IOException{ServerLevel level=server.getLevel(ResourceKey.create(Registries.DIMENSION,new ResourceLocation(dimension)));if(level==null)throw new IOException("Recovery dimension unavailable: "+dimension);return level;}
     private static ListTag inventory(Container container){ListTag items=new ListTag();for(int slot=0;slot<container.getContainerSize();slot++){ItemStack item=container.getItem(slot);if(item.isEmpty())continue;CompoundTag value=item.save(new CompoundTag());value.putInt("SourceSlot",slot);items.add(value);}return items;}
     static ListTag pack(List<ItemStack> items,String region,UUID batch){

@@ -22,14 +22,14 @@ public abstract class OpacProtectionMixin {
     @Shadow @Final private ChunkProtectionExceptionSet<Block> completelyDisabledBlocks;
     @Shadow @Final private ChunkProtectionExceptionSet<EntityType<?>> completelyDisabledEntities;
 
-    @Inject(method="onBlockInteraction(Lxaero/pac/common/server/IServerData;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;ZZ)Z",at=@At("HEAD"),cancellable=true,remap=false)
+    @Inject(target=@Desc(value="onBlockInteraction",args={IServerData.class,BlockState.class,Entity.class,InteractionHand.class,ItemStack.class,ServerLevel.class,BlockPos.class,Direction.class,boolean.class,boolean.class},ret=boolean.class),at=@At("HEAD"),cancellable=true,remap=false)
     private void cuboidplots$block(IServerData data,BlockState state,Entity actor,InteractionHand hand,ItemStack held,ServerLevel world,BlockPos pos,Direction face,boolean breaking,boolean messages,CallbackInfoReturnable<Boolean> result) {
         // Keep OPAC's global disabled-content rules. Only its claim decision receives an exception.
         if(state!=null && completelyDisabledBlocks.contains(state.getBlock())) return;
         if(held!=null && completelyDisabledItems.contains(held.getItem())) return;
         if(ActionScope.grants(actor,pos,null)) result.setReturnValue(false);
     }
-    @Inject(method="onEntityPlaceBlock(Lxaero/pac/common/server/IServerData;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lxaero/pac/common/server/player/config/api/v2/IPlayerConfigOptionSpecAPI;)Z",at=@At("HEAD"),cancellable=true,remap=false)
+    @Inject(target=@Desc(value="onEntityPlaceBlock",args={IServerData.class,BlockState.class,Entity.class,ServerLevel.class,BlockPos.class,IPlayerConfigOptionSpecAPI.class},ret=boolean.class),at=@At("HEAD"),cancellable=true,remap=false)
     private void cuboidplots$place(IServerData data,BlockState state,Entity actor,ServerLevel world,BlockPos pos,IPlayerConfigOptionSpecAPI option,CallbackInfoReturnable<Boolean> result) {
         if(state!=null && completelyDisabledItems.contains(state.getBlock().asItem())) return;
         if(ActionScope.grants(actor,pos,null)) result.setReturnValue(false);
@@ -42,7 +42,7 @@ public abstract class OpacProtectionMixin {
     private void cuboidplots$air(IServerData data,InteractionHand hand,ItemStack held,BlockPos pos,LivingEntity actor,boolean messages,CallbackInfoReturnable<Boolean> result) {
         if(!completelyDisabledItems.contains(held.getItem()) && ActionScope.grants(actor,pos,null)) result.setReturnValue(false);
     }
-    @Inject(method="onEntityInteraction(Lxaero/pac/common/server/IServerData;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/InteractionHand;ZZZ)Z",at=@At("HEAD"),cancellable=true,remap=false)
+    @Inject(target=@Desc(value="onEntityInteraction",args={IServerData.class,Entity.class,Entity.class,Entity.class,ItemStack.class,InteractionHand.class,boolean.class,boolean.class,boolean.class},ret=boolean.class),at=@At("HEAD"),cancellable=true,remap=false)
     private void cuboidplots$entity(IServerData data,Entity indirect,Entity actor,Entity target,ItemStack held,InteractionHand hand,boolean attack,boolean messages,boolean targetExceptions,CallbackInfoReturnable<Boolean> result) {
         if(!attack && completelyDisabledEntities.contains(target.getType())) return;
         if(indirect!=null && indirect!=actor) return; // No projectile/indirect actor exception.

@@ -102,6 +102,13 @@ public final class CoreContractTest {
         rejected(() -> wilderness.create("bad",box(0,64,0,31,64,15)),"crossing wilderness");
     }
     private static void delegation() throws Exception {
+        Claims parent=new Claims();Memory memory=new Memory();boolean[] fail={true};
+        RegionService recovering=new RegionService(parent,new Provider(),memory,(region,reason,current)->{if(fail[0])throw new IOException("Recovery fixture unavailable");});
+        recovering.create(OWNER,false,"retry",DIM,box(0,0,0,1,1,1));
+        try{recovering.ownershipChanged(DIM,0,0);throw new AssertionError("Recovery failure was ignored");}catch(IOException expected){checks++;}
+        ok(!recovering.inspect(OWNER,false,"retry").suspended,"failed recovery leaves ownership removal retryable");
+        fail[0]=false;recovering.ownershipChanged(DIM,0,0);
+        ok(recovering.inspect(OWNER,false,"retry").suspended,"successful retry suspends recovered region");
         Fixture f=new Fixture();f.create("leased",box(0,0,0,2,2,2));
         f.service.assignOwner(OWNER,false,"leased",ALICE);
         f.service.permission(ALICE,false,"leased",BOB,Action.CONTAINER,true);
