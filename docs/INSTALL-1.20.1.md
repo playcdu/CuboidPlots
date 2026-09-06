@@ -3,7 +3,7 @@
 Install the addon **only on the server**. Use the jar for the server's loader:
 
 - `artifacts/1.20.1/fabric/cuboidplots-1.20.1-fabric-0.1.0.jar`
-- `artifacts/1.20.1/forge/cuboidplots-1.20.1-forge-0.1.0.jar`
+- `artifacts/1.20.1/forge/cuboidplots-1.20.1-forge-0.1.1.jar`
 
 Use Java 17. Tested loaders are Fabric Loader 0.16.14 and Forge 47.4.10. Do not install both parent claim mods; initialization explicitly rejects that configuration.
 

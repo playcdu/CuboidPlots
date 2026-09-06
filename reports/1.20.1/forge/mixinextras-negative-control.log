@@ -1,0 +1,43 @@
+2026-09-07 04:08:52,096 main WARN Advanced terminal features are not available in this environment
+[04:08:52] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04:08:52] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[04:08:52] [main/INFO] [ne.mi.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04:08:52] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.20.1/forge/ftb/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04:08:53] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.10\fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[04:08:53] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.10\javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[04:08:53] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.10\lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[04:08:53] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.10\mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[04:08:53] [main/ERROR] [ne.mi.ja.se.JarSelector/]: Failed to select jars for [ResolutionFailureInformation{failureReason=VERSION_RESOLUTION_FAILED, identifier=ContainedJarIdentifier[group=io.github.llamalad7, artifact=mixinextras-forge], sources=[SourceWithRequestedVersionRange{source=[Mod File: D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\mods\require-mixinextras-0.5.4.jar], requestedVersionRange=[0.5.4,), includedVersion=0.5.4}, SourceWithRequestedVersionRange{source=[Mod File: D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\mods\cuboidplots.jar], requestedVersionRange=[0.4.1,0.5), includedVersion=0.4.1}, SourceWithRequestedVersionRange{source=[Mod File: D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.20.1\forge\ftb\mods\ftb-chunks-forge-2001.3.8.jar], requestedVersionRange=[0.4.1,), includedVersion=0.4.1}]}]
+[04:08:53] [main/ERROR] [ne.mi.fm.lo.mo.ModDiscoverer/SCAN]: Failed to load dependencies with locator net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator@3935e9a8
+net.minecraftforge.fml.loading.EarlyLoadingException: 1 Dependency restrictions were not met.
+	at net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator.exception(JarInJarDependencyLocator.java:111) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?] {}
+	at net.minecraftforge.jarjar.selection.JarSelector.detectAndSelect(JarSelector.java:59) ~[JarJarSelector-0.3.19.jar%2367!/:0.3.19] {}
+	at net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator.scanMods(JarInJarDependencyLocator.java:49) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.moddiscovery.ModDiscoverer.discoverMods(ModDiscoverer.java:147) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.FMLLoader.beginModScan(FMLLoader.java:173) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:1.0] {}
+	at net.minecraftforge.fml.loading.FMLServiceProvider.beginScanning(FMLServiceProvider.java:86) ~[fmlloader-1.20.1-47.4.10.jar%2369!/:1.0] {}
+	at cpw.mods.modlauncher.TransformationServiceDecorator.runScan(TransformationServiceDecorator.java:112) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformationServicesHandler.lambda$runScanningTransformationServices$8(TransformationServicesHandler.java:100) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?] {}
+	at java.util.HashMap$ValueSpliterator.forEachRemaining(HashMap.java:1779) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?] {}
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?] {}
+	at java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?] {}
+	at cpw.mods.modlauncher.TransformationServicesHandler.runScanningTransformationServices(TransformationServicesHandler.java:102) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.TransformationServicesHandler.initializeTransformationServices(TransformationServicesHandler.java:55) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:88) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?] {}
+[04:08:54] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04:09:03] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:09:03] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:09:03] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_VideoController, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:09:03] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:09:07] [main/FATAL] [ne.mi.fm.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Some mods have requested conflicting versions of: �6io.github.llamalad7:mixinextras-forge�r. Requested by: �e�ecuboidplots_compat_fixture�r - �4[0.5.4,)�4 - �20.5.4�2, �ecuboidplots�r - �4[0.4.1,0.5)�4 - �20.4.1�2, �eftbchunks�r - �4[0.4.1,)�4 - �20.4.1�2�r.

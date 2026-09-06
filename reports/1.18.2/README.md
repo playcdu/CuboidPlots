@@ -16,3 +16,7 @@ Both loaders also passed 13 live FTB Ranks checks and 3 additional restart check
 The initial production Forge check found stale test-only mixin metadata when changing Gradle build modes. The build now declares the test-host flag as a resource-processing input and regenerates the mixin list. Both production Forge combinations were then rebuilt and passed. Failed attempts are not counted as passes.
 
 See each loader/parent directory for the actual server logs, dependency hashes, acceptance summary and protocol results. These are dedicated and network checks, not a manual graphical demonstration. Crash fault injection, arbitrary modded storage and unbounded area tools remain outside verified scope. Item recovery limitations are documented in `docs/RECOVERY.md`.
+
+## Forge 0.1.1 packaging fix
+
+The current Forge artifact removes an incompatible MixinExtras upper bound. Runtime classes match the tested 0.1.0 exactly. New 0.5.4 dependency-resolution, server-startup and protocol-client evidence is in `forge/<parent>/hotfix-0.1.1`. See `docs/FORGE-0.1.1-HOTFIX.md`.

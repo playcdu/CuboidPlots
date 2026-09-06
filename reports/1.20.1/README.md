@@ -27,3 +27,7 @@ Both loaders passed separate live FTB Ranks checks through an ordinary network c
 - Crash injection between individual recovery journal, world and player-data writes has not been performed. Ordinary restart success is not a proof of a crash-atomic transaction.
 - Arbitrary modded blocks, storage, automation and tool effects are outside the reference adapter's action/recovery scope.
 - Manual graphical client testing has not been performed in this environment.
+
+## Forge 0.1.1 packaging fix
+
+The current Forge artifact removes an incompatible MixinExtras upper bound. Runtime classes match the tested 0.1.0 exactly. New 0.5.4 dependency-resolution, server-startup and protocol-client evidence is in `forge/<parent>/hotfix-0.1.1`. See `docs/FORGE-0.1.1-HOTFIX.md`.
