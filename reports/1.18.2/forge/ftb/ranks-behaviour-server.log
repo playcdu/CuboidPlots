@@ -1,0 +1,119 @@
+2026-09-07 04:01:31,728 main WARN Advanced terminal features are not available in this environment
+[04:01:32] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.12, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[04:01:32] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.20.1 by Eclipse Adoptium
+[04:01:32] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[04:01:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\fmlcore\1.18.2-40.3.12\fmlcore-1.18.2-40.3.12.jar is missing mods.toml file
+[04:01:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.3.12\javafmllanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[04:01:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.3.12\lowcodelanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[04:01:32] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\mclanguage\1.18.2-40.3.12\mclanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[04:01:33] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[04:01:34] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04:01:34] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04:01:43] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[04:01:45] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:01:45] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_VideoController, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:01:45] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[04:01:54] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.12, for MC 1.18.2 with MCP 20220404.173914
+[04:01:54] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v40.3.12 Initialized
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[04:01:54] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[04:01:57] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04:01:58] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04:01:59] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2348!/assets/.mcassetsroot' uses unexpected schema
+[04:01:59] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2348!/data/.mcassetsroot' uses unexpected schema
+[04:01:59] [main/WARN] [minecraft/Pack]: Couldn't get pack info for: java.io.FileNotFoundException: Can't find resource pack.mcmeta at D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\mods\cuboidplots.jar
+[04:01:59] [main/WARN] [minecraft/MinecraftServer]: Missing data pack mod:cuboidplots
+[04:02:00] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: AHEAD Current: 40.3.12 Target: null
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [ftbteams, info, server_id] and [ftbteams, info, team] with inputs: [server_id]
+[04:02:01] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [ftbchunks, admin, view_loaded_chunks, reset] and [ftbchunks, admin, view_loaded_chunks, dimension] with inputs: [reset]
+[04:02:01] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[04:02:01] [main/INFO] [FTB Ranks/]: Loaded 1466 command nodes
+[04:02:03] [Worker-Main-30/INFO] [minecraft/RecipeManager]: Loaded 7 recipes
+[04:02:05] [Worker-Main-30/INFO] [minecraft/AdvancementList]: Loaded 1141 advancements
+[04:02:05] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.18.2
+[04:02:05] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[04:02:05] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[04:02:05] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[04:02:05] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25587
+[04:02:05] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[04:02:06] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:02:06] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[04:02:06] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:02:06] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:02:06] [Server thread/INFO] [FTB Teams/]: loaded team data: 5 known players, 5 teams total
+[04:02:06] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[04:02:06] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[04:02:07] [Worker-Main-29/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:02:07] [Worker-Main-43/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:02:07] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[04:02:07] [Worker-Main-27/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[04:02:08] [Worker-Main-28/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 20%
+[04:02:09] [Worker-Main-25/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 93%
+[04:02:09] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 2622 ms
+[04:02:09] [Server thread/INFO] [minecraft/DedicatedServer]: Done (2.997s)! For help, type "help"
+[04:02:09] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04:02:09] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[CuboidPlots] Ready: parent=ftbchunks, limits=ftbranks
+[04:02:10] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@c526ad
+[04:02:10] [Server thread/INFO] [minecraft/PlayerList]: CuboidRanks[/127.0.0.1:60802] logged in with entity id 233 at (-4.5, 66.0, 40.5)
+[04:02:10] [Server thread/INFO] [minecraft/DedicatedServer]: CuboidRanks joined the game
+[04:02:11] [Server thread/INFO] [minecraft/DedicatedServer]: Teleported CuboidRanks to -158.500000, 120.000000, -158.500000
+[04:02:12] [Server thread/INFO] [FTB Chunks/]: CuboidRanks claimed 1 chunks around [minecraft:overworld:-10:-10]for team CuboidRanks
+[04:02:14] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:14] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:21] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:21] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:25] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:25] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:32] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:32] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:43] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:02:44] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 230a7cc4-2708-3e2d-abc6-c04c7a5453f3
+[04:02:44] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:44] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:46] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:46] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:48] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:48] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:50] [Server thread/INFO] [FTB Ranks/]: Loaded 2 ranks
+[04:02:50] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:51] [Server thread/INFO] [minecraft/DedicatedServer]: Player CuboidRanks added to rank 'VIP'!
+[04:02:53] [Server thread/INFO] [minecraft/DedicatedServer]: Player CuboidRanks removed from rank 'VIP'!
+[04:02:55] [Server thread/INFO] [FTB Ranks/]: Loaded 1 ranks
+[04:02:55] [Server thread/INFO] [minecraft/DedicatedServer]: Ranks reloaded from disk!
+[04:02:59] [Server thread/INFO] [minecraft/ServerGamePacketListenerImpl]: CuboidRanks lost connection: Disconnected
+[04:02:59] [Server thread/INFO] [minecraft/DedicatedServer]: CuboidRanks left the game
+[04:03:00] [Server thread/INFO] [minecraft/DedicatedServer]: Stopping the server
+[04:03:00] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[04:03:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[04:03:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[04:03:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:03:01] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04:03:01] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04:03:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:03:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:03:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:03:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:03:02] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread

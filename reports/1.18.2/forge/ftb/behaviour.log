@@ -1,0 +1,232 @@
+2026-09-07 03:51:12,756 main WARN Advanced terminal features are not available in this environment
+[03:51:12] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.3.12, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914, nogui]
+[03:51:12] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.20.1 by Eclipse Adoptium
+[03:51:13] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2314!/ Service=ModLauncher Env=SERVER
+[03:51:13] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Configuration file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\config\fml.toml is not correct. Correcting
+[03:51:13] [main/WARN] [ne.mi.fm.lo.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
+[03:51:13] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\fmlcore\1.18.2-40.3.12\fmlcore-1.18.2-40.3.12.jar is missing mods.toml file
+[03:51:13] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\javafmllanguage\1.18.2-40.3.12\javafmllanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:51:13] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\lowcodelanguage\1.18.2-40.3.12\lowcodelanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:51:13] [main/WARN] [ne.mi.fm.lo.mo.ModFileParser/LOADING]: Mod file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\libraries\net\minecraftforge\mclanguage\1.18.2-40.3.12\mclanguage-1.18.2-40.3.12.jar is missing mods.toml file
+[03:51:13] [main/INFO] [ne.mi.fm.lo.mo.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[03:51:14] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[03:51:14] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[03:51:23] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:51:24] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_Processor, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:51:24] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_VideoController, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:51:24] [main/WARN] [os.ut.pl.wi.WmiQueryHandler/]: COM exception querying Win32_PhysicalMemory, which might not be on your system. Will not attempt to query it again. Error was -2147217405: (HRESULT: 80041003)
+[03:51:31] [modloading-worker-0/INFO] [ne.mi.co.ForgeMod/FORGEMOD]: Forge mod loading, version 40.3.12, for MC 1.18.2 with MCP 20220404.173914
+[03:51:31] [modloading-worker-0/INFO] [ne.mi.co.MinecraftForge/FORGE]: MinecraftForge v40.3.12 Initialized
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[03:51:31] [modloading-worker-0/INFO] [de.ar.ne.fo.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[03:51:32] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\config\forge-common.toml is not correct. Correcting
+[03:51:32] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:51:32] [main/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
+[03:51:34] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[03:51:35] [Forge Version Check/INFO] [ne.mi.fm.VersionChecker/]: [forge] Found status: AHEAD Current: 40.3.12 Target: null
+[03:51:35] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:51:36] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2348!/assets/.mcassetsroot' uses unexpected schema
+[03:51:36] [main/WARN] [minecraft/VanillaPackResources]: Assets URL 'union:/D:/Nextcloud/Projects/Web/CuboidPlots/.work/servers/1.18.2/forge/ftb/libraries/net/minecraft/server/1.18.2-20220404.173914/server-1.18.2-20220404.173914-srg.jar%2348!/data/.mcassetsroot' uses unexpected schema
+[03:51:36] [main/WARN] [minecraft/Pack]: Couldn't get pack info for: java.io.FileNotFoundException: Can't find resource pack.mcmeta at D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\mods\cuboidplots.jar
+[03:51:36] [main/WARN] [minecraft/MinecraftServer]: Missing data pack mod:cuboidplots
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [ftbteams, info, server_id] and [ftbteams, info, team] with inputs: [server_id]
+[03:51:37] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [ftbchunks, admin, view_loaded_chunks, reset] and [ftbchunks, admin, view_loaded_chunks, dimension] with inputs: [reset]
+[03:51:37] [main/INFO] [FTB Ranks/]: Loading command nodes...
+[03:51:37] [main/INFO] [FTB Ranks/]: Loaded 1466 command nodes
+[03:51:39] [Worker-Main-25/INFO] [minecraft/RecipeManager]: Loaded 7 recipes
+[03:51:40] [Worker-Main-25/INFO] [minecraft/AdvancementList]: Loaded 1141 advancements
+[03:51:40] [Server thread/INFO] [minecraft/DedicatedServer]: Starting minecraft server version 1.18.2
+[03:51:40] [Server thread/INFO] [minecraft/DedicatedServer]: Loading properties
+[03:51:40] [Server thread/INFO] [minecraft/DedicatedServer]: Default game type: SURVIVAL
+[03:51:40] [Server thread/INFO] [minecraft/MinecraftServer]: Generating keypair
+[03:51:40] [Server thread/INFO] [minecraft/DedicatedServer]: Starting Minecraft server on 127.0.0.1:25587
+[03:51:40] [Server thread/INFO] [minecraft/ServerConnectionListener]: Using default channel type
+[03:51:40] [Server thread/WARN] [minecraft/DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:51:40] [Server thread/WARN] [minecraft/DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[03:51:40] [Server thread/WARN] [minecraft/DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:51:40] [Server thread/WARN] [minecraft/DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.skipEmptyShapelessCheck was corrected from null to its default, true. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[03:51:41] [Server thread/WARN] [ne.mi.co.ForgeConfigSpec/CORE]: Incorrect key server.useItemWithDurationZero was corrected from null to its default, false. 
+java.nio.file.NoSuchFileException: D:\Nextcloud\Projects\Web\CuboidPlots\.work\servers\1.18.2\forge\ftb\defaultconfigs\ftbchunks\ftbchunks-world.snbt
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileCopy.copy(WindowsFileCopy.java:99)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.copy(WindowsFileSystemProvider.java:284)
+	at java.base/java.nio.file.Files.copy(Files.java:1305)
+	at TRANSFORMER/ftblibrary@1802.3.12-build.726/dev.ftb.mods.ftblibrary.snbt.config.SNBTConfig.load(SNBTConfig.java:143)
+	at TRANSFORMER/ftblibrary@1802.3.12-build.726/dev.ftb.mods.ftblibrary.snbt.config.ConfigUtil.loadDefaulted(ConfigUtil.java:37)
+	at TRANSFORMER/ftblibrary@1802.3.12-build.726/dev.ftb.mods.ftblibrary.snbt.config.ConfigUtil.loadDefaulted(ConfigUtil.java:21)
+	at TRANSFORMER/ftbchunks@1802.3.19-build.362/dev.ftb.mods.ftbchunks.FTBChunks.serverBeforeStart(FTBChunks.java:166)
+	at java.base/java.lang.invoke.MethodHandle.invokeWithArguments(MethodHandle.java:732)
+	at TRANSFORMER/architectury@4.12.94/dev.architectury.event.EventFactory.invokeMethod(EventFactory.java:53)
+	at TRANSFORMER/architectury@4.12.94/dev.architectury.event.EventFactory$1.handleInvocation(EventFactory.java:62)
+	at MC-BOOTSTRAP/com.google.common@31.0.1-jre/com.google.common.reflect.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:89)
+	at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy56.stateChanged(Unknown Source)
+	at TRANSFORMER/architectury@4.12.94/dev.architectury.event.forge.EventHandlerImplCommon.event(EventHandlerImplCommon.java:403)
+	at net.minecraftforge.eventbus.ASMEventHandler_21_EventHandlerImplCommon_event_ServerAboutToStartEvent.invoke(.dynamic)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:85)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:302)
+	at MC-BOOTSTRAP/eventbus@5.0.3/net.minecraftforge.eventbus.EventBus.post(EventBus.java:283)
+	at TRANSFORMER/forge@40.3.12/net.minecraftforge.server.ServerLifecycleHooks.handleServerAboutToStart(ServerLifecycleHooks.java:86)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:171)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661)
+	at TRANSFORMER/minecraft@1.18.2/net.minecraft.server.MinecraftServer.m_177918_(MinecraftServer.java:261)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[03:51:41] [Server thread/INFO] [minecraft/DedicatedServer]: Preparing level "world"
+[03:51:44] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[03:51:44] [Worker-Main-42/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:51:44] [Worker-Main-28/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:51:45] [Worker-Main-31/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 0%
+[03:51:45] [Worker-Main-42/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[03:51:46] [Worker-Main-46/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 4%
+[03:51:46] [Worker-Main-27/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 9%
+[03:51:47] [Worker-Main-32/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 13%
+[03:51:47] [Worker-Main-32/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 16%
+[03:51:48] [Worker-Main-41/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 24%
+[03:51:48] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 29%
+[03:51:49] [Worker-Main-44/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 38%
+[03:51:49] [Worker-Main-39/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 45%
+[03:51:50] [Worker-Main-37/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 52%
+[03:51:50] [Worker-Main-40/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 60%
+[03:51:51] [Worker-Main-39/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 68%
+[03:51:51] [Worker-Main-46/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 75%
+[03:51:52] [Worker-Main-34/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 82%
+[03:51:52] [Worker-Main-27/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 91%
+[03:51:53] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 8941 ms
+[03:51:53] [Server thread/INFO] [minecraft/DedicatedServer]: Done (11.876s)! For help, type "help"
+[03:51:53] [Server thread/INFO] [ne.mi.se.pe.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[03:51:53] [Server thread/INFO] [FTB Ranks/]: Loaded 3 ranks
+[CuboidPlots] Ready: parent=ftbchunks, limits=config
+[03:51:53] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2a029f2f
+[03:51:53] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@5d8e77b0
+[03:51:53] [Server thread/INFO] [ne.mi.co.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@73738d51
+[CuboidPlots test] PASS two ordinary non-operator identities
+[CuboidPlots test] PASS parent baseline denies untrusted player without action scope
+[CuboidPlots test] PASS cuboid exception overrides real parent denial
+[CuboidPlots test] PASS standing inside does not grant target outside
+[CuboidPlots test] PASS standing outside can act on authorized target
+[CuboidPlots test] PASS actual game mode destroys authorized block
+[CuboidPlots test] PASS actual game mode leaves denied outside block intact
+[CuboidPlots test] PASS revocation restores real parent denial
+[CuboidPlots test] PASS two same-chunk, stacked, and four-chunk cuboids coexist
+[CuboidPlots test] PASS actual placement allowed independently of breaking
+[CuboidPlots test] PASS place grant does not permit actual breaking
+[CuboidPlots test] PASS break grant does not permit actual placement
+[CuboidPlots test] PASS bed second block beyond boundary refuses exception
+[CuboidPlots test] PASS container-only grant opens actual chest in vertically separate cuboid
+[CuboidPlots test] PASS other player cannot open same chest
+[CuboidPlots test] PASS parent denies ungranted door use
+[CuboidPlots test] PASS door-only grant opens actual two-block door
+[CuboidPlots test] PASS door grant does not permit switch use
+[CuboidPlots test] PASS switch-only exception powers actual isolated lever
+[CuboidPlots test] PASS switch grant does not permit other block interactions
+[CuboidPlots test] PASS other-block exception changes actual note block
+[CuboidPlots test] PASS other-block grant does not permit item-on-block use
+[CuboidPlots test] PASS item-on-block exception carves actual pumpkin
+[CuboidPlots test] PASS parent denies ungranted entity interaction
+[CuboidPlots test] PASS entity interaction traverses parent protection with bounded target
+[CuboidPlots test] PASS entity interaction grant does not permit damage
+[CuboidPlots test] PASS entity damage traverses parent protection independently
+[CuboidPlots test] PASS item-in-air scope has no implicit region grant
+[CuboidPlots test] PASS explicit item-in-air grant uses eye position for bounded food use
+[CuboidPlots test] PASS unbounded bucket effects receive no region exception
+[CuboidPlots test] PASS surveyor is a marked vanilla stick
+[CuboidPlots test] PASS stick clicks set inclusive corners and invoke particle preview
+[CuboidPlots test] PASS selection leaves target blocks intact
+[CuboidPlots test] PASS server opens vanilla 54-slot chest menu plus player inventory
+[CuboidPlots test] PASS menu shift-click cannot take decorative items
+[03:51:57] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:00] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[CuboidPlots test] PASS owner places tracked recovery chest through game mode
+[03:52:01] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:02] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 2 return boxes for 00000000-0000-0001-0000-000000000002
+[CuboidPlots test] PASS deletion removes tracked placed block
+[CuboidPlots test] PASS deletion preserves untracked preexisting terrain
+[CuboidPlots test] PASS inventory contents, block loot and dropped items packed across multiple boxes
+[CuboidPlots test] PASS returns reserved for assigned owner, not parent owner
+[CuboidPlots test] PASS actual End parent claim has independent UUID permissions at identical coordinates
+[CuboidPlots test] PASS End cuboid grant does not depend on overworld coordinates
+[CuboidPlots test] PASS actual break allowed in covered chunk 1,0
+[CuboidPlots test] PASS actual break allowed in covered chunk 1,1
+[CuboidPlots test] PASS actual break allowed in covered chunk 2,0
+[CuboidPlots test] PASS actual break allowed in covered chunk 2,1
+[CuboidPlots test] PASS actual parent exception works at a negative chunk boundary
+[03:52:06] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:07] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:08] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[03:52:10] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:10] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:11] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:11] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:11] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:11] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 1 return boxes for 00000000-0000-0001-0000-000000000002
+[03:52:13] [Server thread/INFO] [FTB Chunks/]: Transferred 1/1 chunks from CuboidOwner#00000000 to CuboidBob#00000000
+[CuboidPlots test] PASS direct parent ownership transfer suspends region
+[CuboidPlots test] PASS parent ownership transfer reserves old assigned owner's items
+[03:52:14] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:15] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:16] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:16] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:16] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:16] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[CuboidPlots] Reserved 0 return boxes for 00000000-0000-0001-0000-000000000001
+[CuboidPlots test] PASS real parent unclaim suspends stale cuboid grants
+[CuboidPlots test] Test run finished, stopping server
+[03:52:17] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[03:52:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[03:52:17] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[03:52:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:52:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:52:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:52:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:52:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:52:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:52:20] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:52:21] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread

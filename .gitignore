@@ -3,4 +3,5 @@
 **/build/
 **/run/
 *.log
+!reports/**/*.log
 __pycache__/
